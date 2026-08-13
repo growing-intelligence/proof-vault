@@ -1,0 +1,4 @@
+# A proof vault is evidence: every file must be committed byte-for-byte.
+# Line-ending normalisation silently changes a file sha256 and therefore
+# invalidates any signature or manifest computed over those bytes.
+* -text
