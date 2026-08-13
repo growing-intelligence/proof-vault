@@ -1,0 +1,25 @@
+GI CERTIFIED MODEL - BASELINE FREEZE DECLARATION
+================================================
+
+Model            : Qwen/Qwen3-32B
+Revision         : 9216db5781bf21249d130ec9da846c4624c16137
+Architecture     : Qwen3ForCausalLM
+Precision        : bfloat16
+Weights          : 17 safetensors shards, 65,524,328,560 bytes
+Weight manifest  : expected_shard_manifest.json (sha256 per shard, 17 entries)
+Licence          : Apache License 2.0
+Licence sha256   : 832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e
+Licence verified : operative terms byte-identical to the canonical Apache 2.0 text
+                   (https://www.apache.org/licenses/LICENSE-2.0.txt,
+                    sha256 cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30)
+Config sha256    : 97e295b63283935788fac5e4f8860862a56d4089538cafc93f0431f2ebe483bb
+Context length   : 40,960 (< 131,072, the Bedrock CMI ceiling)
+Freeze date      : 2026-08-13
+Selection record : matrix.md - 85/90 scoreable points; the 10 geopolitical points
+                   are held by the Founder and were not scored by the tooling.
+
+This snapshot is the baseline for GI Certified Model v1.
+
+Signed externally with Ed25519 by the holder of the engine key. The tooling that
+produced this declaration holds no key, generated none, read none, and performed
+no download of the weights it names.
