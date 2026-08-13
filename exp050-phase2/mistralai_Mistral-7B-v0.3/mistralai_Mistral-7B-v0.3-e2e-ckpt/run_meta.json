@@ -1,0 +1,1 @@
+{"model": "mistralai/Mistral-7B-v0.3", "arch": "llama", "n_layers": 32, "is_encoder": false}

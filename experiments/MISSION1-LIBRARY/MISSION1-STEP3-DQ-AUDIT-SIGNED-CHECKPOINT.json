@@ -1,0 +1,26 @@
+{
+  "atom_kind": "mission1-dq-audit-v1",
+  "payload": {
+    "checkpoint_id": "MISSION-1-STEP3-DQ-AUDIT",
+    "timestamp_utc": "2026-07-28T10:29:13Z",
+    "corpus": "D:/diagnostic-benchmarks/_LIBRARY_PERFECT/library.parquet",
+    "total_rows": 2793386,
+    "combined_flagged_rows": 799608,
+    "combined_flagged_pct": 28.63,
+    "lead_finding_missing_context_truncation_rows": 358122,
+    "report_md_sha256": "bfc72594d5e7b0584c9528c6eedb2e0f1975a75b12ba48be93123fd8379948f9",
+    "flag_files_sha256": {
+      "combined_flags.parquet": "dc73df001370d3d807b5e50e36598d5bf7bce609386a033f316b2a48ab88a8ae",
+      "dq_flags_v3.parquet": "2ec4d4a4a4b7780e71099ec84d90f703c4d0baec6f8f6a2a41e6adf1953c2d7f",
+      "within_source_conflicts.parquet": "ac082c52e49798c474cae3b92c4ab89e80ed61d997b19da95d860a12fd4a50d4"
+    }
+  },
+  "content_sha256": "d720d26ea183c38b70e46caa33e758a30b6824b62a492f35b1991521a3caa678",
+  "signature": {
+    "alg": "ed25519",
+    "signer": "gi-engine",
+    "sig_hex": "e0ee9a759965a816d4d4acd19a9d3927dd011887c6d9d473a276ed113b0d36ebd196df8a7dc0eebb74e31513c85b6d9dfdb6b7d159294664b1a856a22ae3bd07",
+    "pubkey_hex": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+    "note": "signed by Growing Intelligence (GI_ENGINE_SEED) \u2014 verifiable at api.growing-intelligence.com"
+  }
+}

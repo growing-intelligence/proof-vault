@@ -1,0 +1,12 @@
+{
+  "arweave_tx": "",
+  "customer_email_hash": "43c8a047215930c6e88c53090d252b7afe2ad528a1db30a9a53425b09b761497",
+  "github_url": "",
+  "hash": "533169f0836792a3c019849b93848c417c45a080683daaaa2d23cbfc4cc2a0de",
+  "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "pubkey": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+  "report_id": "ee7104a1-0ec3-4f02-b151-baf6b6e1d25b",
+  "signature": "17b1f8bd9da8c0608befc3eaf0b727fd515eeca6d1611be8c0b1373e463e2bfafb869b38612972fbfec019af25a0e305ecf65690b14d83209ee18a4f3788db05",
+  "timestamp": "2026-07-10T16:09:51.154379+00:00",
+  "type": "scan"
+}

@@ -1,0 +1,152 @@
+{
+  "model": "google_gemma-2-9b",
+  "exp": "EXP-050 Phase 2",
+  "file_count": 36,
+  "root_sha256": "5ecd589bdeee820c7a5274acdf5678baa971f92274edb387f1024f4d173bac13",
+  "files": {
+    "google_gemma-2-9b-e2e-ckpt/run_meta.json": {
+      "sha256": "065a13f6a4b640f1aeb369895474ee48bbaa54088d7745b876e1aa27e9e487e6",
+      "bytes": 85
+    },
+    "google_gemma-2-9b-e2e-ckpt/profile.json": {
+      "sha256": "0c8230bd8055b72f5c6e28231190f118bfaf30e9159c40a2a9f7036cd8a04a73",
+      "bytes": 46096
+    },
+    "google_gemma-2-9b-e2e-ckpt/scanned_ids.txt": {
+      "sha256": "33bcbed50245cdef8142900fe7acd11297fd99b1a26ad3ed3a0b1677c57247b9",
+      "bytes": 34000
+    },
+    "google_gemma-2-9b-e2e-ckpt/edits.jsonl": {
+      "sha256": "cdd63ef29ac296719d8da335da480f17e7cff7e8fd1964218879b35ce4b67b2b",
+      "bytes": 26576
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes.pkl": {
+      "sha256": "63723e37b57b624917b7dc59a7f64c6cb4871e8ef895d2e4b3609980d8d6a528",
+      "bytes": 175689
+    },
+    "google_gemma-2-9b-e2e-ckpt/checkpoint-0050.json": {
+      "sha256": "98a0085e7b4bdd4dbde2684dd275dc74b1c6f3c0e3a0985d62539dfe356035b8",
+      "bytes": 271
+    },
+    "google_gemma-2-9b-e2e-ckpt/checkpoint.json": {
+      "sha256": "80c8656b16e26bd748a8e6077dfc7ea10af1444dd2f5f21788989fb966317897",
+      "bytes": 264
+    },
+    "google_gemma-2-9b-e2e-ckpt/checkpoint-0100.json": {
+      "sha256": "c2fdaecadf2785158b0bc7f27ce9afbb7fc2e3907de2ae8ac437b430f2837bc8",
+      "bytes": 273
+    },
+    "google_gemma-2-9b-e2e-ckpt/checkpoint-0145.json": {
+      "sha256": "cac24189152129a8ea34d2cef7f19554f88388672468ffcdad21e1b4b4bd7c67",
+      "bytes": 270
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D1.pkl": {
+      "sha256": "a26f6ee03d794452c0d24664c8f797cc1e39577a3287e58b917651c057b9bc85",
+      "bytes": 10470495
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D1.agg.json": {
+      "sha256": "52451b7e38d7436cef543dd19f1bee7de9c9be5e05615c4086bc2403d865e199",
+      "bytes": 108
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D1.questions.json": {
+      "sha256": "4e02a9cc3f947855717ed83dfa64f6b03170b7436460e81287198c2e38f769c5",
+      "bytes": 2940
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D2.pkl": {
+      "sha256": "24656836dfb86c0832c6de3b0b15283f4604c62df6c974cb964ff5d929ec9f24",
+      "bytes": 1755009
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D2.agg.json": {
+      "sha256": "6f012f7b7efa396fa3e6dfc2ec01dadd693356b26b4319da2e5b559fc9f0e8f8",
+      "bytes": 105
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D2.questions.json": {
+      "sha256": "bbe88db99b9bb6e59050e7c5bcc64dce7374022ebc509aad8ac1c4ee8869b5ed",
+      "bytes": 400
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D3.pkl": {
+      "sha256": "0de74bfd805424f667fab9f97c971d594d5d8a3b62b27fd278a551ebec832655",
+      "bytes": 29455
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D3.agg.json": {
+      "sha256": "53b588dde80704eafd73a1b6d93fc4d2a36daf8dc07328113be329c213a7ff55",
+      "bytes": 102
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D3.questions.json": {
+      "sha256": "0fe7bea00f409a25a24e6ca3a029ec7beadb75d59146979b2893ca48032589b6",
+      "bytes": 40
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D4.pkl": {
+      "sha256": "8c78f88769d21f733ba6690ffae8c6694c2325663a4dce0c3a723715fca8fd9d",
+      "bytes": 409660
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D4.agg.json": {
+      "sha256": "9e30c7d8f1cb128ded0893f8a7f74695bc366498669dbe642c47317f139681ee",
+      "bytes": 103
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D4.questions.json": {
+      "sha256": "70c251e694f7f2da1e1fc4044e25ba92ecf92eb8198c29a8fd2b50bbc1a04405",
+      "bytes": 100
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D5.pkl": {
+      "sha256": "b84f5718e3fe3272052ac43bfdb1e776c0094263512c82e5ee39a6e9ef567b76",
+      "bytes": 58699
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D5.agg.json": {
+      "sha256": "4248bc76ff84bf025ba7a73e526655718e86dec6bcb71f2ab1c047db07200b54",
+      "bytes": 102
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_D5.questions.json": {
+      "sha256": "a33dfe8650b3b8b1dc208eadf973664669d9ca38832a4b08db710846a027548f",
+      "bytes": 40
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_fractal_c1_iter1.pkl": {
+      "sha256": "daec16adb536c39ded3018ebd92b15a1fa806c6e3f4c066cd72822b28026b6a4",
+      "bytes": 13570638
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_fractal_c1_iter2.pkl": {
+      "sha256": "8789a4831fc7f8e235c9ef44e683917acf8dd4382aee164becae1f6b80814618",
+      "bytes": 14097075
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_fractal_c1_iter3.pkl": {
+      "sha256": "49d592f1acd9fc45584628e883d675bac5925825c8a75e476413926ea7f8b401",
+      "bytes": 14301803
+    },
+    "google_gemma-2-9b-e2e-ckpt/fixes_fractal_c1_iter4.pkl": {
+      "sha256": "82b583ece1f4ec75ff51a0cb9872524899f10c4c6df547ede2be3d20b37bc719",
+      "bytes": 14477288
+    },
+    "models-library/map/phase1/part-000000.parquet": {
+      "sha256": "f2d7bdf8a219f2aa76f3e916bf8e67ac87cd020d6d27bdba22001ade018d4beb",
+      "bytes": 6526290
+    },
+    "models-library/map/phase1/part-000250.parquet": {
+      "sha256": "d7618238e46b001ae8925c76db7e9d841595b6b1fbee92423f912b3a41d88122",
+      "bytes": 6557052
+    },
+    "models-library/map/phase1/part-000500.parquet": {
+      "sha256": "f0d10228335c0dcc31e2c449af3a22f783b1f9a406f7231956a964a805b77af8",
+      "bytes": 6522199
+    },
+    "models-library/map/phase1/part-000750.parquet": {
+      "sha256": "359bff0ca5743a46ffd7be292401b670274f69e61bab8b5446a90bf507c270b6",
+      "bytes": 5177196
+    },
+    "models-library/map/phase1/part-001000.parquet": {
+      "sha256": "1c4e30b89d873c46a2537a567d4aafa029ec75be7f946f004d98ec2e2f594b84",
+      "bytes": 6217119
+    },
+    "models-library/map/phase1/part-001250.parquet": {
+      "sha256": "7f8afb5a4a50e2247cdb226172689b83d1a7832e258f7c681e1fb5ed65687277",
+      "bytes": 6121178
+    },
+    "models-library/map/phase1/part-001500.parquet": {
+      "sha256": "db37accb80515fcb7a64818440ce935a6cc671f69d5ffa2805925b320d838e6b",
+      "bytes": 3960623
+    },
+    "models-library/map/phase1/part-001750.parquet": {
+      "sha256": "99dd56298ee70349f913af38397e03ddd942ee40dd5d4eccd5e9a1b37f11224d",
+      "bytes": 6500562
+    }
+  }
+}

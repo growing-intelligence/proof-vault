@@ -1,0 +1,9 @@
+{
+  "applied_count": 7,
+  "current_issue_index": 6,
+  "dimension": "final",
+  "timestamp": 1785080523.435571,
+  "model_id": "mistralai/Mistral-7B-v0.3",
+  "fixes_pkl_hash": "db66dab4d869ac2f7fd0f74476b0855295d86022c1b3a708827b672a745b2caf",
+  "fixes_pkl_size_kb": 684.0
+}

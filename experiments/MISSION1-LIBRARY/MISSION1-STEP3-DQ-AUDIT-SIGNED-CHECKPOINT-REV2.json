@@ -1,0 +1,23 @@
+{
+  "atom_kind": "mission1-dq-audit-v2-corrected",
+  "payload": {
+    "checkpoint_id": "MISSION-1-STEP3-DQ-AUDIT-REV2",
+    "supersedes": "MISSION-1-STEP3-DQ-AUDIT (rev1, pre-correction)",
+    "correction": "dialogsum (2523 rows) moved from confirmed-defect to legitimate-multi-reference, same as common_gen. Found and fixed under the ALL-WINDOWS execution-proof audit, not before.",
+    "timestamp_utc": "2026-07-28T16:35:14Z",
+    "corpus": "D:/diagnostic-benchmarks/_LIBRARY_PERFECT/library.parquet",
+    "total_rows": 2793386,
+    "combined_flagged_rows": 797085,
+    "combined_flagged_pct": 28.53,
+    "lead_finding_missing_context_truncation_rows": 355599,
+    "report_md_sha256": "e42c37f92f768d8565befb1139ade5b7f7ab2ebb17d9f7b1c1bc8050d4c82eaf"
+  },
+  "content_sha256": "046e4fa433d78eb31e25509d466a6e4164bc5fb5890ec1c2e77ac406aaf6abd5",
+  "signature": {
+    "alg": "ed25519",
+    "signer": "gi-engine",
+    "sig_hex": "393844d958c5cf8fd006488974c59174b19303a2473c0eb1ff851b26e7ea8a80c490ba44f229e0b18fa00e9ec956d223f4d52d6b31ef0210f54e14c68e55df0c",
+    "pubkey_hex": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+    "note": "signed by Growing Intelligence (GI_ENGINE_SEED) \u2014 verifiable at api.growing-intelligence.com"
+  }
+}

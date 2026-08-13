@@ -1,0 +1,54 @@
+{
+  "meta-llama_Llama-3.1-8B": {
+    "root": "c9d65c71401b3cbe89794868535ab8fb15d261e63e9a6c0b35bb0c3d4069cde0",
+    "diag": {
+      "incorrect": 1823,
+      "fixable": 114,
+      "correct": 63
+    },
+    "hold": {
+      "incorrect": 1798,
+      "fixable": 133,
+      "correct": 69
+    }
+  },
+  "mistralai_Mistral-7B-v0.3": {
+    "root": "7bff8d98a9a9bff98bb5ce52206684ff84d677d74f53e3f87ce7819e707cf347",
+    "diag": {
+      "incorrect": 1866,
+      "fixable": 76,
+      "correct": 58
+    },
+    "hold": {
+      "incorrect": 1842,
+      "fixable": 88,
+      "correct": 70
+    }
+  },
+  "google_gemma-2-9b": {
+    "root": "f4f74875f46bd5bea9194a8f200b107888c9c6a2d35e99321a54ad3b81823960",
+    "diag": {
+      "incorrect": 1759,
+      "fixable": 176,
+      "correct": 65
+    },
+    "hold": {
+      "incorrect": 1756,
+      "fixable": 167,
+      "correct": 77
+    }
+  },
+  "Qwen_Qwen3-32B": {
+    "root": "c16c59e230566ff1ad75d8339c24fb266464375f8f3f9730d3a7a99daf8c233e",
+    "diag": {
+      "incorrect": 1862,
+      "fixable": 78,
+      "correct": 60
+    },
+    "hold": {
+      "incorrect": 1855,
+      "fixable": 89,
+      "correct": 56
+    }
+  }
+}

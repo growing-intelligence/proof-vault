@@ -1,0 +1,8 @@
+{
+  "file": "EXP050-Phase1-SUMMARY.pdf",
+  "sha256": "25f263bef2b38c1dbb8e969d21540024a952210c81778aed6947aaf35148a4e5",
+  "pubkey": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+  "signature": "fa233a74555499837c6c75005237ff0c2a05e6b3dcf72a13a0daa8a4111aac63e3985a26af667ab750aa6a8aafe08b9f0e97331ad5c8a1e91af24ffc0e972402",
+  "alg": "ed25519",
+  "signed_ts": "2026-07-26T13:07:53Z"
+}

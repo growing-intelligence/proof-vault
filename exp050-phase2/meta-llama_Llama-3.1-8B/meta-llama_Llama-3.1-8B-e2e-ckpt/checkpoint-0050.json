@@ -1,0 +1,9 @@
+{
+  "applied_count": 50,
+  "current_issue_index": 49,
+  "dimension": "reasoning",
+  "timestamp": 1785076948.782793,
+  "model_id": "meta-llama/Llama-3.1-8B",
+  "fixes_pkl_hash": "0d1fed2433ab069aecc80b5c3532cc57484f7d9f6df9731d978e13e13854b061",
+  "fixes_pkl_size_kb": 4884.5
+}

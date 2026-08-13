@@ -1,0 +1,302 @@
+{
+  "status": "completed",
+  "phase": "phase6_complete",
+  "model": "C:/Users/Lenovo/Desktop/GI-Engine/deberta56_TESTCOPY",
+  "questions": "C:/Users/Lenovo/Desktop/GI-Engine/probe56-release/questions_100_v4.json",
+  "mode": "full",
+  "dimensions_requested": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ],
+  "reports_dir": "D:\\probe56\\reports",
+  "updated_at": "2026-07-26T04:58:51Z",
+  "created_at": "2026-07-26T03:53:36Z",
+  "ckpt_dir": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\_Users_Lenovo_Desktop_GI-Engine_deberta56_TESTCOPY-e2e-ckpt",
+  "fix_sets": [],
+  "dimensions_completed": [],
+  "scan_checkpoints": [
+    {
+      "name": "SCAN-cycle1_full.json",
+      "path": "D:\\probe56\\reports\\scan_ckpt\\SCAN-cycle1_full.json"
+    },
+    {
+      "name": "SCAN-phase1.json",
+      "path": "D:\\probe56\\reports\\scan_ckpt\\SCAN-phase1.json"
+    },
+    {
+      "name": "SCAN-phase3.json",
+      "path": "D:\\probe56\\reports\\scan_ckpt\\SCAN-phase3.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\bert-base-uncased-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\deberta-v3-base-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\distilbert-base-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\falcon-rw-1b-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\gemma-2-2b-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\gpt-j-6b-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\gpt-neo-125m-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\gpt2-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\Lite-Mistral-150M-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\OLMo-1B-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\phi-1.5-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\phi-3-mini-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\pythia-160m-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\qwen2-0.5b-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\qwen3-0.6b-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\roberta-base-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\SmolLM-135M-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\stablelm-2-1.6b-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\starcoder2-3b-xray-methodB\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\gpt2-auto\\xray\\scan-result.json"
+    },
+    {
+      "name": "scan-result.json",
+      "path": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\full_chain_final\\gpt2-xray\\scan-result.json"
+    }
+  ],
+  "total_scanned": 100,
+  "last_session_scanned": 30,
+  "phase1": {
+    "total": 30,
+    "correct": 30,
+    "fixable": 0
+  },
+  "scanned_question_ids": [
+    "00cb91a82fced8b6",
+    "0357c01a809ba5a7",
+    "03e8a10234040346",
+    "135689dc14c079b2",
+    "13bff849aa0e2fe1",
+    "14a0cd9c7fd4cf49",
+    "174e413f67499407",
+    "18c44048cc96d3be",
+    "1aa91c30d2a07543",
+    "1c550c97dbcd4834",
+    "1d6ff1b5d2cc8b99",
+    "1de73f009f97ec80",
+    "1f02bc53f26d90df",
+    "2287b345087cdfb9",
+    "23fc339fdbc1b282",
+    "243cf543f473413c",
+    "26e137359d82b97b",
+    "2753dcdb1cd1a644",
+    "278f2c93edc62970",
+    "2c9056e5b8e69e42",
+    "33512aba9702f764",
+    "3827a6deb5095ef6",
+    "3983377006d86dbb",
+    "3c4afa5ed164be4e",
+    "3f612938e03e466c",
+    "419378c24dbab2c5",
+    "4782d971dbed250a",
+    "48c108bca92cd100",
+    "56162e0cf443e5e1",
+    "5894f503d7a156be",
+    "58cc5d9454e0169a",
+    "5bec0118f9d70882",
+    "5f2947d676b491ed",
+    "62d655e6694ac670",
+    "633e7064eec2d932",
+    "648c04c568ec6d9c",
+    "684772ff5e89e28c",
+    "68b407c567417b05",
+    "6e1c37b6ba9500e4",
+    "6f10b3c012a50545",
+    "71c75f826e70fa76",
+    "7305dfa8078b7f25",
+    "7bae84da0ad54b07",
+    "7c3918cafc1f5cc3",
+    "7ec22f978a47f53e",
+    "82b938cbbe915bf6",
+    "82e62d8b2e336a16",
+    "8e6a64831d6a0c0e",
+    "8fc694df23a27a29",
+    "91bad894e880f22c",
+    "9817ecfc35cb6d27",
+    "99b7320014e99d3c",
+    "9cb43c52aa9654c9",
+    "9d7cdd79a10bb1f7",
+    "a0310004a3f1c123",
+    "a086d47350e38a04",
+    "a23e125baaf0a53c",
+    "a507ba368412149e",
+    "a599a4da1a3aae9c",
+    "a80aed486e8938f4",
+    "a946d30f9526e745",
+    "aa4748c75a1c5b01",
+    "af34c593bfbab580",
+    "af668db57793a6ac",
+    "aff3d361fdf42711",
+    "b57b5894a7221868",
+    "b6732a44fe320656",
+    "ba8736691e19382c",
+    "baecd7306af0780d",
+    "bca02dddc0cd0478",
+    "bcf7494619b12b6a",
+    "be5b53c3d295da18",
+    "beef12dcaa3c5f5f",
+    "bf8ae83e16ecb0f8",
+    "c3064c448d0af1ac",
+    "c5be7d6596c56bff",
+    "c7ec4f9695c9008e",
+    "c7fea2ea99ee55f7",
+    "cc2f27523b5c7630",
+    "cfdb1c886909a288",
+    "d04fa62ca40d3427",
+    "d22ede523979bdea",
+    "d928774288816594",
+    "df04b170ad03526e",
+    "df5a92020b91e5b1",
+    "e03b2c4dddf8f2bf",
+    "e1c2b9f0d7c3dcce",
+    "e398a6b6bb94bf50",
+    "e39f486d1d65e6f2",
+    "e3be81c8a4df4571",
+    "e45b0c34e2c4ffe9",
+    "e49ae49d3c3cedad",
+    "e9dd4465ee8536a3",
+    "eadc0dc42cceacd9",
+    "eafe58b604a09491",
+    "ef2eb860d62b9d53",
+    "f5c2e085f45fd62f",
+    "f6c3434151c3a61d",
+    "f96794dc34444209",
+    "f9dbfb840c6d6a52"
+  ],
+  "scanned_ids_file": "C:\\Users\\Lenovo\\Desktop\\GI-Engine\\docs\\probe56\\results\\_Users_Lenovo_Desktop_GI-Engine_deberta56_TESTCOPY-e2e-ckpt\\scanned_ids.txt",
+  "per_dimension": {
+    "D1": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D2": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D3": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D4": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D5": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    }
+  },
+  "collateral_measured": 0,
+  "cycles": 1,
+  "fix_vectors": 0,
+  "final_collateral": 0,
+  "collateral_damage": 0,
+  "documented_residual": 0,
+  "residual_note": "no residual collateral",
+  "flipped": 0,
+  "fixable": 0,
+  "runtime_s": 503.4,
+  "reports": [
+    "D:\\probe56\\reports\\Probe56-1-BASELINE-SCAN.pdf",
+    "D:\\probe56\\reports\\Probe56-2-D1-REPAIR.pdf",
+    "D:\\probe56\\reports\\Probe56-3-D2-REPAIR.pdf",
+    "D:\\probe56\\reports\\Probe56-4-D3-REPAIR.pdf",
+    "D:\\probe56\\reports\\Probe56-5-D4-REPAIR.pdf",
+    "D:\\probe56\\reports\\Probe56-6-D5-REPAIR.pdf",
+    "D:\\probe56\\reports\\Probe56-7-FINAL-SUMMARY.pdf"
+  ],
+  "autosave": {
+    "ok": false,
+    "attempts": 3,
+    "files": [
+      "profile.json",
+      "Probe56-1-BASELINE-SCAN.pdf",
+      "Probe56-2-D1-REPAIR.pdf",
+      "Probe56-3-D2-REPAIR.pdf",
+      "Probe56-4-D3-REPAIR.pdf",
+      "Probe56-5-D4-REPAIR.pdf",
+      "Probe56-6-D5-REPAIR.pdf",
+      "Probe56-7-FINAL-SUMMARY.pdf"
+    ],
+    "error": "fatal: No configured push destination.\nEither specify the URL from the command-line or configure a remote repository using\n\n    git remote add <name> <url>\n\nand then push using the remote name\n\n    git push <name>\n\n",
+    "vault_dir": "C:/Users/Lenovo/Desktop/GI-Engine/local_vault_test",
+    "run_tag": "C:_Users_Lenovo_Desktop_GI-Engine_deberta56_TESTCOPY",
+    "at": "2026-07-26T04:38:39Z"
+  }
+}

@@ -1,0 +1,1 @@
+{"model": "google/gemma-2-9b", "arch": "gemma2", "n_layers": 42, "is_encoder": false}

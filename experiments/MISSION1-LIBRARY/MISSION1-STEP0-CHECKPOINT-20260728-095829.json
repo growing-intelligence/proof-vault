@@ -1,0 +1,594 @@
+{
+  "atom_kind": "library-checkpoint-v1",
+  "payload": {
+    "checkpoint_id": "MISSION-1-STEP0-PRE-REBUILD",
+    "purpose": "Checkpoint of the current (pre-rebuild) benchmark library state, before MISSION 1's world-standard rebuild begins. This is the exact point to return to if the rebuild needs to be rolled back.",
+    "timestamp_utc": "2026-07-28T09:58:28Z",
+    "library_perfect_root": "D:/diagnostic-benchmarks/_LIBRARY_PERFECT",
+    "library_perfect_manifest_summary": {
+      "total_unique_rows": 2793386,
+      "raw_rows_scanned": 4223511,
+      "categories": 49,
+      "dimensions": 5,
+      "elements_present": 56
+    },
+    "library_perfect_file_hashes": {
+      "by_category/Aerospace.parquet": {
+        "sha256": "4216e951a30b3b92d0aa428594c7e16804dfc9d8da53ab347f2a9efee3df2774",
+        "bytes": 170814
+      },
+      "by_category/Agriculture.parquet": {
+        "sha256": "b11bf9688e79013a6b6d05df79a107208fa6a30f951df7134f64c921a45e6323",
+        "bytes": 303369
+      },
+      "by_category/Automotive.parquet": {
+        "sha256": "f56e2059716df28f6027da1ddfcbea48e3fa52abb27da4720655b68b024a707b",
+        "bytes": 1043023
+      },
+      "by_category/Causal.parquet": {
+        "sha256": "943407530847e494fa136a343ecb07e656eb1fc8fd2653fbaa420678d3031d5a",
+        "bytes": 649013
+      },
+      "by_category/Chemistry.parquet": {
+        "sha256": "03cc6072e03242c5221a5ec1a57e121b6f8a51e8edab83feb80d58c9a0b2c4a7",
+        "bytes": 18638
+      },
+      "by_category/Chinese_Exams.parquet": {
+        "sha256": "94d888fd0b5f1e96a9f96382818d668ff6149c586a78c79561a650abf27e1012",
+        "bytes": 3139436
+      },
+      "by_category/Cloze.parquet": {
+        "sha256": "3132827eee018db59c4d6fa2868d1d70610fda180b30465da2eb19cca34e16a1",
+        "bytes": 2265123
+      },
+      "by_category/Code.parquet": {
+        "sha256": "c583f6c140fbaff3c2a6f5391c7fd98d187464cd35b5b0d9a65878a37c71ff9f",
+        "bytes": 616169
+      },
+      "by_category/Commonsense.parquet": {
+        "sha256": "90b2a99682f0739639d2f1cacc3af705f1381371d4e6cec4e9d4837c32443fcf",
+        "bytes": 8375980
+      },
+      "by_category/Construction.parquet": {
+        "sha256": "a1a62d345001dbce82a4e5c140da13caa6b3decace8b4a1af77a72bdf694e1f8",
+        "bytes": 665747
+      },
+      "by_category/Dialogue.parquet": {
+        "sha256": "011ce0729f7259d959818532b162e0c953f1d8f35926c814d4631894333424d1",
+        "bytes": 3242775
+      },
+      "by_category/E-commerce.parquet": {
+        "sha256": "a6b188cc102f6425a61fd198c55496afce0d14e704475993b4c2b08f0e16556e",
+        "bytes": 126270955
+      },
+      "by_category/Economics.parquet": {
+        "sha256": "d4711e96947277c8ab6e50fd2b49899682722c402895dcc000ee185a04e5ad32",
+        "bytes": 228324
+      },
+      "by_category/Education.parquet": {
+        "sha256": "2ad2bf4d6f3b5c6f84d14ad67ce646c52de4458782bbc99f0d3b89cbdb021546",
+        "bytes": 189527
+      },
+      "by_category/Energy.parquet": {
+        "sha256": "1fa75f82a514f8c6d626a0af3c1286ac37d0fdd407084a20531cd4f423c1a975",
+        "bytes": 226249
+      },
+      "by_category/Entailment.parquet": {
+        "sha256": "e21019886691ef10fc81ca32f1f83a944d474b5d9c1667a3f418b497865c5862",
+        "bytes": 8070505
+      },
+      "by_category/Environment.parquet": {
+        "sha256": "e715835aca2327a7553884493cfe9e6d2ec596f924d06eef15cd22210d3d7115",
+        "bytes": 33577
+      },
+      "by_category/Ethics.parquet": {
+        "sha256": "738b509ed17247dc98160d7e5b5be8edddead2c901ad55b284f6f1ce9219ecc1",
+        "bytes": 710882
+      },
+      "by_category/Exams.parquet": {
+        "sha256": "272213c54864dac6c162168d86294b3b1bdac7a90b5ac47eeac69dba7aff077a",
+        "bytes": 627754
+      },
+      "by_category/Finance.parquet": {
+        "sha256": "7bb5a88e209e474c7f17ad43163be4ae0d58621a45a5475e1b126b82fc1dbbb5",
+        "bytes": 134267
+      },
+      "by_category/General.parquet": {
+        "sha256": "66b4c25043752fa0c7ae2f11caee8da01881ebb2d77878aae5c1329681312b08",
+        "bytes": 17179038
+      },
+      "by_category/Geography.parquet": {
+        "sha256": "4e4451c7723cbbb0fcc63a47d6cc4aa470316f61bcb1b268c82a592814e91bff",
+        "bytes": 47689
+      },
+      "by_category/Hallucination.parquet": {
+        "sha256": "4bfca9f795b9977b748d64b1d9bda6a626d1ee54d5eb4d8c375033f3eafcec42",
+        "bytes": 2769099
+      },
+      "by_category/History.parquet": {
+        "sha256": "cff37d3e6e818d6b9133efaf1f207370d696820422d3c3832bf2c8a6c9c79540",
+        "bytes": 123078
+      },
+      "by_category/Industry.parquet": {
+        "sha256": "d9e367467fbd5f75f70f950a5b1e038a86ec4c49ca7496f0b3bf3837295c7690",
+        "bytes": 21667
+      },
+      "by_category/Insurance.parquet": {
+        "sha256": "40906691a06f3084ddc78f71cae4efc102bed01df4b892c93fa74c94a6db024a",
+        "bytes": 3501340
+      },
+      "by_category/Journalism.parquet": {
+        "sha256": "16d0d9fdb6c01cac6ab84d9ee7c7062c391d74b316ec7c4b8799c0fc4ff1745c",
+        "bytes": 1082280
+      },
+      "by_category/Legal.parquet": {
+        "sha256": "510205ce33e1164d11581cc002a397e6ab6efd5ae190516aafa5058515238bdc",
+        "bytes": 7024733
+      },
+      "by_category/Linguistics.parquet": {
+        "sha256": "aeacf10943e96f8ee3a6aa3f80b01abb3568d18a0c8f88c45104ea4e9f07f983",
+        "bytes": 2572091
+      },
+      "by_category/Logic.parquet": {
+        "sha256": "8291711dce417bd54ce9adc17e8a460fe7c3a38aab5bb9ba23e68f82ba21cfe3",
+        "bytes": 273029
+      },
+      "by_category/Materials.parquet": {
+        "sha256": "d906c4f1d6ebe00280b466a7e6c222be139799a3c882097939b4ce5a3d459282",
+        "bytes": 75581
+      },
+      "by_category/Math.parquet": {
+        "sha256": "18882049b444200bbfc76a8f483ac2fbbe1a7c0e2d50d3ba82313894451ba480",
+        "bytes": 825724
+      },
+      "by_category/Medical.parquet": {
+        "sha256": "05702dfd6188ddc518760c440b6a8df84b146ef73bf7453b32b3185b74ad16a8",
+        "bytes": 2301650
+      },
+      "by_category/Multihop.parquet": {
+        "sha256": "d209563eed7ecf0b9992991281900b93fafcffbf54ddb6c98ae2ec557d20a5f7",
+        "bytes": 226165
+      },
+      "by_category/Multilingual.parquet": {
+        "sha256": "e3767befd44ac11f6389c40c02aaa53bdc401b12b9ec6c8ff7dfa4ef10415264",
+        "bytes": 18433362
+      },
+      "by_category/Paraphrase.parquet": {
+        "sha256": "8424d5a88f53439b33f3340425d793eadab2fc25d71587875f1e4ce59be7b7c6",
+        "bytes": 4117763
+      },
+      "by_category/Philosophy.parquet": {
+        "sha256": "7eda29848b4b783208d202744b915c9dd65abf82879df0f93bb44b3088d7f41a",
+        "bytes": 139618
+      },
+      "by_category/Political_Science.parquet": {
+        "sha256": "50e599936e4aa02a18135cd65d8cbb7d1b81dc19f3c96dfe2f0ef2a74404ea8a",
+        "bytes": 43674
+      },
+      "by_category/Psychology.parquet": {
+        "sha256": "6d25c9454a382c86e60b3666cef6f7f06493ce36344247414c3f95373582f55a",
+        "bytes": 146603
+      },
+      "by_category/Reading.parquet": {
+        "sha256": "52708b3570c37305f3458bdccd5d2eff2e04e777c57a53d20d83b48374a3aad5",
+        "bytes": 1318343
+      },
+      "by_category/Reasoning.parquet": {
+        "sha256": "9a085ab1bb8e07e6bd967c64e2d189186d48dd2e7da89fa5ae46e275cd8941b3",
+        "bytes": 9272162
+      },
+      "by_category/Safety.parquet": {
+        "sha256": "0e19fac669c2c8fdbd8e0db1b7894484a8226d088af5221c39c4cf91f406bf6a",
+        "bytes": 9404566
+      },
+      "by_category/Science.parquet": {
+        "sha256": "65948c5804fec4a7b06413494643e662d684901da8a3856e104a0be66e675f8c",
+        "bytes": 26599
+      },
+      "by_category/Sentiment.parquet": {
+        "sha256": "16f2fce822d07fb5ce99201810063d0e86e63a574e2d335c5a75061ba9157dcf",
+        "bytes": 2724516
+      },
+      "by_category/Sociology.parquet": {
+        "sha256": "43337875870dc6dd76ca02e6484dfbf9105feac7bafaa4e6c08baec258a049f5",
+        "bytes": 11577
+      },
+      "by_category/Statistics.parquet": {
+        "sha256": "de8327f9f344a982c473f7db3d096788d458ecefff3c15c0b6e0bac4d5e3c100",
+        "bytes": 424096
+      },
+      "by_category/Telecom-adv.parquet": {
+        "sha256": "58bfb07f09c1880a2c235a126d42e19bfc21ffd4e53a64539b69f4b3c3cfb3dd",
+        "bytes": 122203
+      },
+      "by_category/Telecom.parquet": {
+        "sha256": "3f7992e9faa7c084f0fa1ab2f8e35311cba6c01d85a1ee00f936c4d0e04f8da7",
+        "bytes": 108894465
+      },
+      "by_category/Transportation.parquet": {
+        "sha256": "3e94489e1ce5ea0b4b34c0b5fa5aefb3a607284cdde77c960ef12a8c70f0eac6",
+        "bytes": 26608
+      },
+      "library.parquet": {
+        "sha256": "e182fe24200a4efe74ada2e40dc34aaae9abf7036131b7ddfbe78b6ac314db89",
+        "bytes": 351149539
+      },
+      "manifest.json": {
+        "sha256": "c55e1215fea9c8aaaa004fed74f3b78474b239fdea3db8c9edd78fc63059cb96",
+        "bytes": 3425
+      },
+      "SUMMARY.md": {
+        "sha256": "4e3c40575b88138104bb4f2e7a204a9478258d560ca22ebfc88e68ec9fd466ed",
+        "bytes": 2173
+      }
+    },
+    "findings_docs_hashes": {
+      "LIBRARY-MANIFEST.json": {
+        "sha256": "aabd57c218be77ccfdb98e7ccdd92a5f26eb5235918f7049b535c4c76c27a5f9",
+        "bytes": 5835,
+        "path": "D:\\diagnostic-benchmarks\\LIBRARY-MANIFEST.json"
+      },
+      "_DOWNLOAD-SUMMARY.json": {
+        "sha256": "8ed915c4812f2950f9255c3ec7ebc8343ca642be432b10a0bf4ba897ec55a4bc",
+        "bytes": 2233,
+        "path": "D:\\diagnostic-benchmarks\\_DOWNLOAD-SUMMARY.json"
+      },
+      "_DOWNLOAD-SUMMARY-TEXT.json": {
+        "sha256": "8b6d58ac2ad1c02852c60d3639be7fe3b0db6694ece5cca68f71e7ed46c1d562",
+        "bytes": 1051,
+        "path": "D:\\diagnostic-benchmarks\\_DOWNLOAD-SUMMARY-TEXT.json"
+      },
+      "DEDUP-RECORD.md": {
+        "sha256": "cb6cdcc61f82b47bb46be7bb0d9ba065525e20b326774179cb399c3bcc14c6eb",
+        "bytes": 1339,
+        "path": "D:\\diagnostic-benchmarks\\DEDUP-RECORD.md"
+      },
+      "CATEG V2.txt": {
+        "sha256": "a129f5ceca38d1bc84ba33a3fc1d72d6867ab13cc8d8c2c1f76387702f055a3f",
+        "bytes": 1869,
+        "path": "D:\\diagnostic-benchmarks\\CATEG V2.txt"
+      },
+      "d345_library.json": {
+        "sha256": "eb315ab2fb6ca08534049bfd5e2fa7181b80646f22d536fb83778282de8f6fe9",
+        "bytes": 608253,
+        "path": "D:\\diagnostic-benchmarks\\d345_library.json"
+      }
+    },
+    "source_inventory_raw": {
+      "distinct_source_identifiers": 322,
+      "total_rows": 2793386,
+      "row_count_by_source": {
+        "astro-qa-single-select multi choice(4)": 1282,
+        "astro-qa-subjective question": 554,
+        "astro-qa-single-select multi choice(5)": 396,
+        "astro-qa-judgment": 316,
+        "astro-qa-multi-select multi choice": 157,
+        "astro-qa-matching": 79,
+        "agxqa": 2186,
+        "mmlu-pro-biology": 578,
+        "mmlu-high_school_biology": 342,
+        "mmlu-nutrition": 339,
+        "driveqa": 25203,
+        "xcopa": 10278,
+        "ecare": 2106,
+        "socialiqa": 3445,
+        "piqa": 1838,
+        "copa": 100,
+        "chembench-icho": 115,
+        "chembench-number_of_nmr_peaks": 50,
+        "chembench-electron_counts": 25,
+        "chembench-number_of_isomers": 23,
+        "chembench-oxidation_states": 10,
+        "chembench-metal_complexes": 7,
+        "chembench-periodic_table_properties": 2,
+        "chembench-polymer_chemistry_fsu": 2,
+        "chembench-computational_photochemistry": 2,
+        "chembench-polymer_chemistry": 1,
+        "chembench-reasoning": 1,
+        "chembench-combustion_engineering": 1,
+        "cmrc2018:train": 10142,
+        "cmrc2018:validation": 3219,
+        "numina:cn_k12": 2996,
+        "ceval:college_economics": 55,
+        "ceval:accountant": 49,
+        "ceval:physician": 49,
+        "ceval:tax_accountant": 49,
+        "ceval:civil_servant": 47,
+        "ceval:urban_and_rural_planner": 46,
+        "ceval:teacher_qualification": 44,
+        "ceval:college_programming": 37,
+        "ceval:electrical_engineer": 37,
+        "ceval:art_studies": 33,
+        "ceval:business_administration": 33,
+        "ceval:environmental_impact_assessment_engineer": 31,
+        "ceval:fire_engineer": 31,
+        "ceval:education_science": 29,
+        "ceval:professional_tour_guide": 29,
+        "ceval:college_chemistry": 24,
+        "ceval:law": 24,
+        "ceval:mao_zedong_thought": 24,
+        "ceval:metrology_engineer": 24,
+        "ceval:chinese_language_and_literature": 23,
+        "ceval:legal_professional": 23,
+        "ceval:modern_chinese_history": 23,
+        "ceval:veterinary_medicine": 23,
+        "ceval:clinical_medicine": 22,
+        "ceval:logic": 22,
+        "ceval:middle_school_history": 22,
+        "ceval:plant_protection": 22,
+        "ceval:computer_architecture": 21,
+        "ceval:middle_school_biology": 21,
+        "ceval:middle_school_politics": 21,
+        "ceval:high_school_history": 20,
+        "ceval:middle_school_chemistry": 20,
+        "ceval:advanced_mathematics": 19,
+        "ceval:basic_medicine": 19,
+        "ceval:college_physics": 19,
+        "ceval:computer_network": 19,
+        "ceval:high_school_biology": 19,
+        "ceval:high_school_chemistry": 19,
+        "ceval:high_school_chinese": 19,
+        "ceval:high_school_geography": 19,
+        "ceval:high_school_physics": 19,
+        "ceval:high_school_politics": 19,
+        "ceval:ideological_and_moral_cultivation": 19,
+        "ceval:marxism": 19,
+        "ceval:middle_school_mathematics": 19,
+        "ceval:middle_school_physics": 19,
+        "ceval:operating_system": 19,
+        "ceval:sports_science": 19,
+        "ceval:high_school_mathematics": 18,
+        "ceval:probability_and_statistics": 18,
+        "ceval:discrete_mathematics": 16,
+        "ceval:middle_school_geography": 12,
+        "hellaswag": 17182,
+        "lambada": 5148,
+        "swebench": 2279,
+        "bigcodebench": 1140,
+        "ds1000": 938,
+        "cruxeval": 800,
+        "mbpp": 500,
+        "humaneval": 164,
+        "common_gen": 71400,
+        "swag": 19981,
+        "commonsense-mixed": 4965,
+        "cosmosqa": 5960,
+        "xwinograd": 2301,
+        "creak": 1371,
+        "winogrande": 1267,
+        "commonsenseqa": 1223,
+        "openbookqa": 506,
+        "aecbench-cn": 4638,
+        "dialogsum": 14444,
+        "diasafety": 10312,
+        "dream": 2041,
+        "ecinstruct": 227060,
+        "bitext_customer_support": 24554,
+        "amazon_polarity": 19997,
+        "ecinstruct-qa": 1335,
+        "ecinstruct-attrs": 1162,
+        "mmlu-high_school_macroeconomics": 433,
+        "mmlu-pro-economics": 401,
+        "mmlu-professional_accounting": 313,
+        "mmlu-high_school_microeconomics": 264,
+        "mmlu-marketing": 259,
+        "econlogicqa": 130,
+        "mmlu-econometrics": 126,
+        "eduqg": 2725,
+        "formationeval-diskos-qa": 1027,
+        "formationeval-Petrophysics": 245,
+        "formationeval-Petroleum Geology": 109,
+        "formationeval-Sedimentology": 64,
+        "formationeval-Geophysics": 57,
+        "formationeval-Reservoir Engineering": 53,
+        "formationeval-Drilling Engineering": 40,
+        "formationeval-Production Engineering": 37,
+        "entailment-mixed": 79573,
+        "snli": 9824,
+        "xnli-en": 5010,
+        "mnli": 5000,
+        "anli": 3354,
+        "climaqa": 292,
+        "ethics-commonsense": 24566,
+        "math_agieval": 1000,
+        "truthfulqa:mc": 817,
+        "logiqa": 651,
+        "lsat_lr": 510,
+        "lsat_rc": 269,
+        "aqua_rat": 254,
+        "lsat_ar": 227,
+        "sat_math": 220,
+        "sat_en": 206,
+        "sat_en_wop": 206,
+        "convfinqa": 6648,
+        "finqa": 1138,
+        "financebench": 150,
+        "hotpotqa": 97905,
+        "ethics-virtue": 37743,
+        "ethics-justice": 26535,
+        "musique": 23011,
+        "mmlu": 14005,
+        "ethics-deontology": 12756,
+        "triviaqa": 9962,
+        "mmlu-pro": 4951,
+        "simpleqa": 4331,
+        "selfaware": 3317,
+        "wiqa": 2966,
+        "arc-easy": 2374,
+        "sciq": 2000,
+        "arc-challenge": 1471,
+        "qasc": 926,
+        "quartz": 784,
+        "scifact": 1105,
+        "bbh-navigate": 250,
+        "bbh-web_of_lies": 250,
+        "bbh-dyck_languages": 250,
+        "bbh-multistep_arithmetic_two": 250,
+        "bbh-tracking_shuffled_objects_five_objects": 244,
+        "bbh-tracking_shuffled_objects_three_objects": 231,
+        "bbh-tracking_shuffled_objects_seven_objects": 216,
+        "gpqa-diamond": 198,
+        "bbh-logical_deduction_five_objects": 161,
+        "bbh-logical_deduction_seven_objects": 136,
+        "bbh-logical_deduction_three_objects": 113,
+        "geoquestions1089": 257,
+        "mmlu-geography": 159,
+        "mmlu-pro-other": 126,
+        "mmlu-high_school_geography": 4,
+        "halueval-summarization": 9994,
+        "truthfulqa-mc": 817,
+        "halueval-qa": 21,
+        "mmlu-history": 378,
+        "mmlu-high_school_world_history": 263,
+        "mmlu-high_school_us_history": 226,
+        "mmlu-high_school_european_history": 183,
+        "mmlu-prehistory": 29,
+        "industryor": 100,
+        "mmlu-public-relations": 8,
+        "insuranceqa": 27975,
+        "fever": 19652,
+        "vitaminc": 9896,
+        "multifc": 4824,
+        "legalbench": 51403,
+        "lexglue-ledgar": 9432,
+        "lexglue-eurlex": 4991,
+        "casehold": 3600,
+        "lexglue-unfair_tos": 1600,
+        "lexglue-scotus": 1400,
+        "cuad": 1252,
+        "lexglue-ecthr_a": 991,
+        "lexglue-ecthr_b": 264,
+        "hans": 45000,
+        "blimp-island_effects": 8000,
+        "blimp-determiner_noun_agreement": 8000,
+        "blimp-npi_licensing": 7000,
+        "blimp-binding": 7000,
+        "blimp-filler_gap_dependency": 7000,
+        "blimp-argument_structure": 6994,
+        "blimp-subject_verb_agreement": 5996,
+        "blimp-control_raising": 5000,
+        "blimp-quantifiers": 4000,
+        "blimp-s-selection": 2000,
+        "blimp-ellipsis": 2000,
+        "blimp-anaphor_agreement": 1998,
+        "blimp-irregular_forms": 1996,
+        "proofwriter": 1455,
+        "logic-mixed": 1122,
+        "folio": 361,
+        "mmlu-logic": 85,
+        "mascqa-Thermodynamics": 114,
+        "mascqa-Atomic structure": 100,
+        "mascqa-Mechanical": 96,
+        "mascqa-Material manufacturing": 91,
+        "mascqa-Material Applications": 53,
+        "mascqa-Phase transition": 40,
+        "mascqa-Electrical": 35,
+        "mascqa-Material processing": 35,
+        "mascqa-Transport phenomena": 24,
+        "mascqa-Magnetism": 15,
+        "mascqa-Material characterization": 14,
+        "mascqa-Fluid": 13,
+        "mascqa-Material testing": 9,
+        "mascqa-Miscellaneous": 8,
+        "mathqa": 2982,
+        "gsm-hard": 1319,
+        "gsm8k": 1319,
+        "mmlu-stem": 707,
+        "math-500": 423,
+        "asdiv": 301,
+        "svamp": 300,
+        "minif2f": 244,
+        "theoremqa": 209,
+        "aime-2024": 30,
+        "healthbench": 5000,
+        "medmcqa": 4183,
+        "": 4081,
+        "headqa": 2741,
+        "medqa-usmle": 1273,
+        "pubmedqa": 1000,
+        "medexpqa": 125,
+        "cwq": 3531,
+        "musique-answerable": 14,
+        "global-mmlu": 201318,
+        "mmmlu": 6609,
+        "mgsm": 2750,
+        "belebele": 900,
+        "qqp": 14999,
+        "pawsx": 13978,
+        "paws": 7987,
+        "mrpc": 1725,
+        "stsb": 1378,
+        "mmlu-moral_scenarios": 995,
+        "mmlu-philosophy": 392,
+        "mmlu-moral_disputes": 56,
+        "mmlu-logical_fallacies": 52,
+        "mmlu-formal_logic": 14,
+        "mmlu-political-norms": 181,
+        "mmlu-high_school_government_and_politics": 20,
+        "mmlu-us_foreign_policy": 9,
+        "mmlu-psychology": 749,
+        "mmlu-pro-psychology": 214,
+        "mmlu-professional_psychology": 201,
+        "mmlu-high_school_psychology": 121,
+        "squad_v2": 11800,
+        "drop": 8574,
+        "race": 4931,
+        "boolq": 3270,
+        "quail": 2715,
+        "ropes": 1535,
+        "condaqa": 591,
+        "proofwriter-depth0-sample": 82111,
+        "proofwriter-depth-1": 51911,
+        "proofwriter-depth-2": 36535,
+        "clutrr": 32076,
+        "proofwriter-depth-3": 22833,
+        "proofwriter-depth-5": 14099,
+        "proofwriter-depth-3ext-NatLang": 7209,
+        "bbh": 3488,
+        "entailmentbank": 1730,
+        "truthfulqa": 813,
+        "strategyqa": 687,
+        "mmlu-abstract_algebra": 16,
+        "realtoxicity": 99124,
+        "bbq": 52957,
+        "bbq-bias": 47604,
+        "probe56-library-8": 19515,
+        "safetybench": 11382,
+        "stereoset": 2123,
+        "ethos": 998,
+        "do-not-answer": 938,
+        "app_reviews": 14050,
+        "tweeteval": 12284,
+        "twitter_financial": 9540,
+        "goemotions": 5422,
+        "dair_ai_emotion": 2000,
+        "sst2": 872,
+        "mmlu-sociology": 20,
+        "mmlu-social-norms": 9,
+        "statqa": 11431,
+        "oran-bench-hard": 500,
+        "oran-bench-medium": 497,
+        "oran-bench-easy": 495,
+        "tele-eval:arxiv": 576614,
+        "tele-eval:wiki": 90330,
+        "tele-eval:standard": 83055,
+        "teleqna": 9993,
+        "oran-bench:hard": 72,
+        "oran-bench:medium": 49,
+        "oran-bench:easy": 34,
+        "mmlu:college_computer_science": 23,
+        "mmlu:computer_security": 21,
+        "mmlu:college_physics": 1,
+        "transportbench": 132
+      }
+    }
+  },
+  "content_sha256": "9d5c4f1b3f75187f2255f468ae8d5c5aa0b9dc838f2607430a09e801e809c621",
+  "signature": {
+    "alg": "ed25519",
+    "signer": "gi-engine",
+    "sig_hex": "81e47fe6670fe15672511c147820215011ef60aa1b865fabf16095a235ebc9c5032469d80548d6d01b2fa3a7df1567f2f16a332496b6c8594a42e7325774ef06",
+    "pubkey_hex": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+    "note": "signed by Growing Intelligence (GI_ENGINE_SEED) \u2014 verifiable at api.growing-intelligence.com"
+  }
+}

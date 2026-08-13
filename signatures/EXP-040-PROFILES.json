@@ -1,0 +1,12 @@
+{
+  "arweave_tx": "",
+  "customer_email_hash": "",
+  "github_url": "",
+  "hash": "e0249bb85dadff885b24ba1a96b9ca8405d0d7528a15d1903d0d30f27e58aca9",
+  "model_id": "Qwen/Qwen3-32B",
+  "pubkey": "f94fe39de8b42cd0508ebfdbf2db2e2be2735452f307245dfc656b56d030487f",
+  "report_id": "EXP-040-PROFILES",
+  "signature": "33d4f135edefa12db6f314ad9a36eb2ab3a4ec15f7e3a8704cfb08fb1e6d6ea93f49d415209ca2b196d10778a88f7fc2fec6dcd9bf74fcae8c29db7240fe2e0c",
+  "timestamp": "2026-07-11T18:39:10Z",
+  "type": "experiment"
+}

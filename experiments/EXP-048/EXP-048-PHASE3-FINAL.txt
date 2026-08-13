@@ -1,0 +1,9 @@
+EXP-048 Phase 3 Final (Post-Fractal)
+====================================
+
+Total: 6000
+Correct:   677
+Fixable:   147
+Incorrect: 5176
+Collateral (scan_layers): 2
+Note: idx=713 is correct per /question (scan_layers shows fixable due to 64-hook capture interference)

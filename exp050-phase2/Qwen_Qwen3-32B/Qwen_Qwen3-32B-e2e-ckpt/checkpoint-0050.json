@@ -1,0 +1,9 @@
+{
+  "applied_count": 50,
+  "current_issue_index": 50,
+  "dimension": "knowledge",
+  "timestamp": 1785078865.1370692,
+  "model_id": "Qwen/Qwen3-32B",
+  "fixes_pkl_hash": "c15e19eb57596315135aba8bf0c853fee3e99a10c81c3a7a80975f29d427d2e3",
+  "fixes_pkl_size_kb": 4299.8
+}

@@ -1,0 +1,72 @@
+{
+  "model": "google_gemma-2-9b",
+  "exp": "EXP-050 Phase 1",
+  "files": {
+    "phase1/part-000000.parquet": {
+      "sha256": "f2d7bdf8a219f2aa76f3e916bf8e67ac87cd020d6d27bdba22001ade018d4beb",
+      "bytes": 6526290
+    },
+    "phase1/part-000250.parquet": {
+      "sha256": "d7618238e46b001ae8925c76db7e9d841595b6b1fbee92423f912b3a41d88122",
+      "bytes": 6557052
+    },
+    "phase1/part-000500.parquet": {
+      "sha256": "f0d10228335c0dcc31e2c449af3a22f783b1f9a406f7231956a964a805b77af8",
+      "bytes": 6522199
+    },
+    "phase1/part-000750.parquet": {
+      "sha256": "359bff0ca5743a46ffd7be292401b670274f69e61bab8b5446a90bf507c270b6",
+      "bytes": 5177196
+    },
+    "phase1/part-001000.parquet": {
+      "sha256": "1c4e30b89d873c46a2537a567d4aafa029ec75be7f946f004d98ec2e2f594b84",
+      "bytes": 6217119
+    },
+    "phase1/part-001250.parquet": {
+      "sha256": "7f8afb5a4a50e2247cdb226172689b83d1a7832e258f7c681e1fb5ed65687277",
+      "bytes": 6121178
+    },
+    "phase1/part-001500.parquet": {
+      "sha256": "db37accb80515fcb7a64818440ce935a6cc671f69d5ffa2805925b320d838e6b",
+      "bytes": 3960623
+    },
+    "phase1/part-001750.parquet": {
+      "sha256": "99dd56298ee70349f913af38397e03ddd942ee40dd5d4eccd5e9a1b37f11224d",
+      "bytes": 6500562
+    },
+    "holdout/part-000000.parquet": {
+      "sha256": "566f80a3ab8ea6fed094f8693568873df8f419b751949a8c936e3f81689ffc26",
+      "bytes": 6543460
+    },
+    "holdout/part-000250.parquet": {
+      "sha256": "224222b28a9a31bd7377e4cf2581a7d123f40de3b2254bbaf924d3853b19c93b",
+      "bytes": 6520638
+    },
+    "holdout/part-000500.parquet": {
+      "sha256": "7fccaf45d51d1bd4398e5304ee85d5e0b5227ee38636325b3822ebb4dc6d46a6",
+      "bytes": 6547904
+    },
+    "holdout/part-000750.parquet": {
+      "sha256": "5ce5ed24dc39891a728badd1a897e504ffc7b53d895f8605af9e0323b24b95e5",
+      "bytes": 5551050
+    },
+    "holdout/part-001000.parquet": {
+      "sha256": "0bae30e092f6c0291172e41af465a28b7404d29c4ea081ac08d56e069c7e55b9",
+      "bytes": 6342225
+    },
+    "holdout/part-001250.parquet": {
+      "sha256": "6173738cdfb4bd682c8c4579e487dda2c66ebb5a66fcaabf55d04ddc6858f6e1",
+      "bytes": 5898745
+    },
+    "holdout/part-001500.parquet": {
+      "sha256": "8a7ff012148bda5ba84a9f08f5a4f1d43becddce7456849464125ca67b00cdde",
+      "bytes": 4051070
+    },
+    "holdout/part-001750.parquet": {
+      "sha256": "b2c64860a1db8cf11a5f5daa3dab40a846f7d5477011357f45195d2a3008253d",
+      "bytes": 6504263
+    }
+  },
+  "substrate_root_sha256": "f4f74875f46bd5bea9194a8f200b107888c9c6a2d35e99321a54ad3b81823960",
+  "file_count": 16
+}

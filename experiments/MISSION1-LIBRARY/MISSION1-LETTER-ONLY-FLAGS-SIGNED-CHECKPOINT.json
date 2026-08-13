@@ -1,0 +1,24 @@
+{
+  "atom_kind": "mission1-letter-only-flags-v1",
+  "payload": {
+    "checkpoint_id": "MISSION-1-LETTER-ONLY-ANSWER-FLAGS",
+    "timestamp_utc": "2026-07-28T11:14:14Z",
+    "corpus": "D:/diagnostic-benchmarks/library_v4.parquet",
+    "total_rows_corpus": 2793386,
+    "total_flagged": 248295,
+    "pending_restoration_w6_mmlu_family": 208739,
+    "quarantined_no_known_recovery_path": 39556,
+    "flag_needed_review_but_not_flagged_pct": 93.2,
+    "escalated_by": "W5",
+    "overlay_file_sha256": "8ba8ad42570014bec53afc9e30644b78354911759a66a0a4ef5f9c6ad971947a",
+    "report_md_sha256": "82827cfe23c4eeb6f94931cfc0633b2da498c43a1ea74e5b558468ef28471d91"
+  },
+  "content_sha256": "ecca1b3ec2b560a6d7e58ebf2db7908e7fa9467c61e31d4efe05d5336febfc47",
+  "signature": {
+    "alg": "ed25519",
+    "signer": "gi-engine",
+    "sig_hex": "bb22be76e54185b52ca25e1d6a6fef7a028968c812736cd5c409e6e2184618815db19bc7639066d50f43be9e9c4159dd8d9dc59b066e876080f891d8c19c8c05",
+    "pubkey_hex": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+    "note": "signed by Growing Intelligence (GI_ENGINE_SEED) \u2014 verifiable at api.growing-intelligence.com"
+  }
+}

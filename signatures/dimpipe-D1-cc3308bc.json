@@ -1,0 +1,12 @@
+{
+  "arweave_tx": "",
+  "customer_email_hash": "",
+  "github_url": "",
+  "hash": "c817d4701e8284f7fbe1c6c2502d6878246905af3d908c495ce9bbf1b0704ae3",
+  "model_id": "gpt2",
+  "pubkey": "34b4d9043156cb6dcf0beb0a2949b7559c940d2bcb6dbe8c53a9b30278e3a746",
+  "report_id": "dimpipe-D1-cc3308bc",
+  "signature": "0523fdeef8a15912ee4d2bf35da4d57b4ce21a7c3df3e9be7f9c0ae0e2bd365517df1a5fdc8d9a15d8bdf566bf8f3e434a3f8b6af0125324fe0847ba37b80507",
+  "timestamp": "2026-07-08T00:00:00Z",
+  "type": "repair"
+}

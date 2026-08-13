@@ -1,0 +1,79 @@
+{
+  "proof_id": "HOLO-008-BIO",
+  "title": "Holosynthics Biological Data Proof",
+  "branch": "w1/holo008-integration (w2/holo008-bio 2593495f + w3 tests 5c9738f6)",
+  "audit": {
+    "cargo_test": "166 passed / 0 failed",
+    "clippy": "-D warnings clean",
+    "existing_adapters_regression": "none"
+  },
+  "adapters": [
+    {
+      "id": "bio.fasta",
+      "file": "BRCA1 mRNA U14680.1",
+      "atoms": 7630,
+      "bp": 5711,
+      "gc_percent": 41.55,
+      "roundtrip": "byte-exact hash match",
+      "molecule": "Symbol ⊗ Space ⊗ Identity"
+    },
+    {
+      "id": "bio.pdb",
+      "file": "1JM7 BRCA1/BARD1 RING",
+      "atoms": 575898,
+      "atom_records": 44268,
+      "nmr_models": 14,
+      "chains": "A,B",
+      "bfactor": 0.0,
+      "roundtrip": "byte-exact full file",
+      "molecule": "Number ⊗ Space³ ⊗ Symbol ⊗ Identity"
+    },
+    {
+      "id": "bio.fastq",
+      "file": "Ebola SRR1553607",
+      "atoms": 118,
+      "mode": "summary",
+      "reads": 203445,
+      "roundtrip": "gzip verified",
+      "molecule": "Symbol ⊗ Space ⊗ Entropy ⊗ Identity"
+    },
+    {
+      "id": "bio.clinical",
+      "file": "METABRIC",
+      "atoms": 6612,
+      "patients": 1904,
+      "features": 693,
+      "molecule": "Number ⊗ Boolean ⊗ Identity ⊗ Symbol"
+    }
+  ],
+  "element_field": "zero None across all 4 files",
+  "cross_domain_brca1": {
+    "element": "Identity:Conservation",
+    "science": "Identity · Conservation of Proof",
+    "bio_derivative": "Sequence Fidelity",
+    "identical_across": [
+      "FASTA",
+      "PDB",
+      "CSV"
+    ],
+    "total_formats_with_car_proof": 10
+  },
+  "law_distribution_honest": {
+    "fasta_symbol_laws": 2,
+    "pdb_symbol_laws": 3,
+    "fastq_laws_per_kind": 1,
+    "clinical_laws_per_kind": 1,
+    "note": "real but narrow — subset of 56 exercised, not all 56"
+  },
+  "honest_discrepancies": [
+    "brca1+brca1_mut -> one Identity atom (not two)",
+    "overall_survival -> Symbol+Number+Relation (not Boolean)"
+  ],
+  "signature": {
+    "alg": "Ed25519",
+    "content_sha256": "295d840d396938f4c0794acec60c896036ab8f5150a635e1e80084c9a9408f8a",
+    "sig_hex": "1fae3a3ac5d98fd072cde3d1a8d553fbdc5537389e3bb9d8f53445ef35cec84bbc7f6a93137415380fe687bc32f417822808d87b998919d7e9d360b91c116b05",
+    "engine_pubkey_hex": "afb3d04e5c86dabfc0efa1dbdeb3a919821503dcf5a1ee6bc27a20115574e208",
+    "signed_over": "sha256(canonical_json) raw 32 bytes"
+  }
+}

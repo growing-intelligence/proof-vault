@@ -1,0 +1,160 @@
+{
+  "model": "mistralai_Mistral-7B-v0.3",
+  "exp": "EXP-050 Phase 2",
+  "file_count": 38,
+  "root_sha256": "896412766abe5268b933b42f08986d2e4ae8de1f9918f1106c1ce0b3e4b8a07b",
+  "files": {
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/run_meta.json": {
+      "sha256": "bf980693d82d213465f3035ed5c383731f16cfbae59f8c4cdc6ca85648cc60ee",
+      "bytes": 92
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/profile.json": {
+      "sha256": "610f5d343b51c4bb333f98a3f80a9794fd602a7c2d11719bac5263c936c06849",
+      "bytes": 46576
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/scanned_ids.txt": {
+      "sha256": "33bcbed50245cdef8142900fe7acd11297fd99b1a26ad3ed3a0b1677c57247b9",
+      "bytes": 34000
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/edits.jsonl": {
+      "sha256": "d1d95e476dc18eecceae8fbe476321b291d63836df77d94afcd64b6210c9bce5",
+      "bytes": 20192
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes.pkl": {
+      "sha256": "db66dab4d869ac2f7fd0f74476b0855295d86022c1b3a708827b672a745b2caf",
+      "bytes": 700421
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/checkpoint-0050.json": {
+      "sha256": "5f6ae6231613c33c163b660c3ca88ca684d31ca801778636922f0fef34e5ccf6",
+      "bytes": 284
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/checkpoint.json": {
+      "sha256": "8540940d5a9f3a08cc76ff2ab99c70973a3c6beecf10c9558a40da86f97228cb",
+      "bytes": 271
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/checkpoint-0054.json": {
+      "sha256": "482d63fff7372f00d88c3cb80108f2372fb0ad05f0751b0526fbd66575ee7154",
+      "bytes": 275
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D1.pkl": {
+      "sha256": "5a3c299863d2a72e918a1969ebc05d17833fdfe6d0f6cc65f2941545640bf23c",
+      "bytes": 4134806
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D1.agg.json": {
+      "sha256": "32e5fa0dd0ef15f5304129247b42cc9b9e946aa0981eddce30d49ad2e23fa3a1",
+      "bytes": 106
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D1.questions.json": {
+      "sha256": "fb973727e52427844f1cc608086311b332ee2bff75129531e620a16410c0e925",
+      "bytes": 1080
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/checkpoint-0015.json": {
+      "sha256": "520570e9fd73aa8212642a90b3dee9847e29db8b9a6475e154707f095deb786e",
+      "bytes": 275
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D2.pkl": {
+      "sha256": "b51e2dbc836e6d70f8a1faa11a4aaaf00ceb667e778328c41c87a907d0df77c2",
+      "bytes": 1500665
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D2.agg.json": {
+      "sha256": "df388694dd276e8dfc1315c28d95e19174ad1801cae3a28b5850c029a2d5d959",
+      "bytes": 105
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D2.questions.json": {
+      "sha256": "640588282b3963c9cd30b2fb67e268f9ffd00ecc5995e1589d19a272daf6972f",
+      "bytes": 300
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D3.agg.json": {
+      "sha256": "c965441a745356f0bf0eab9df004a8777b5af3faa19542d23ebe1d4522f39398",
+      "bytes": 100
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D3.questions.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D4.pkl": {
+      "sha256": "3216dd131642e44998cdd83b651fb05d8b0d0b35a040d06795e86122129e0aeb",
+      "bytes": 200273
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D4.agg.json": {
+      "sha256": "95dd152368473a451c767c5bbefbe6484bd296d5a9d558d5582df18dff3f54a5",
+      "bytes": 102
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D4.questions.json": {
+      "sha256": "55da6585db3cd5c66ecbb91c1785cd7c504a491d7f142e68db8b65d477ca94e7",
+      "bytes": 60
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D5.pkl": {
+      "sha256": "511b0d668632932e0fa442a881b082a159f31929e9b271fade8ae42b1c0049c2",
+      "bytes": 200273
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D5.agg.json": {
+      "sha256": "95dd152368473a451c767c5bbefbe6484bd296d5a9d558d5582df18dff3f54a5",
+      "bytes": 102
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_D5.questions.json": {
+      "sha256": "1ba956377e3185bb613bc8118d14720e5a7fa84b69808d8613db0923de5840e3",
+      "bytes": 60
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_fractal_c1_iter1.pkl": {
+      "sha256": "4fd1dc9a9c4fb8569b15e6a4518a6ce1d3cf0f1568767b2867c3764d9f971ade",
+      "bytes": 8702869
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_fractal_c1_iter2.pkl": {
+      "sha256": "6cb2a983ab0cbc9ddf5592c2a5307401bac20234d5318b180859b9e5ebf36c4a",
+      "bytes": 10136644
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_fractal_c1_iter3.pkl": {
+      "sha256": "bbc2748100d16d2248d8ca654c8f27e3c10a92d421df977bb18929bae863f9f0",
+      "bytes": 10736827
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_fractal_c1_iter4.pkl": {
+      "sha256": "8e1b54fd92c86d842d936492e6ffcb2e1d5df9de5ee25eebd2c222e486438492",
+      "bytes": 11036914
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_fractal_c1_iter5.pkl": {
+      "sha256": "8b1de8340995db2d352abdc3bf04e7ef5f969ae1b6678087ce9fc57cdb42fdbe",
+      "bytes": 11036914
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_secondpass_c1.pkl": {
+      "sha256": "3cc1c8173dd0c9500df212c74262959d0d3f670077ec5212139c3aa55c00656b",
+      "bytes": 12904150
+    },
+    "mistralai_Mistral-7B-v0.3-e2e-ckpt/fixes_fractal_c2_iter1.pkl": {
+      "sha256": "63b76288dda0ecc9398d52ffc5c4b1b08a01fc6db41360aa9937be50f231f411",
+      "bytes": 12904150
+    },
+    "models-library/map/phase1/part-000000.parquet": {
+      "sha256": "ed2711d0e94d2979b4a5c9b4c5c93d54e5975fef1362b2103b811287a452c43a",
+      "bytes": 3652870
+    },
+    "models-library/map/phase1/part-000250.parquet": {
+      "sha256": "6f127ba3f68ad40d10b51c8a3bc81c5ec30cc3f5058cfc84708de4cb97489e19",
+      "bytes": 3741388
+    },
+    "models-library/map/phase1/part-000500.parquet": {
+      "sha256": "2842fa89e18abc5a1131e8b5ded56e4e64ecd508a93fd801fd15d0d1af40a8b0",
+      "bytes": 3543860
+    },
+    "models-library/map/phase1/part-000750.parquet": {
+      "sha256": "890786814af704e89308bff1e6e4688b90f2a37c26275781e2dd4dfa5bb0f507",
+      "bytes": 2990902
+    },
+    "models-library/map/phase1/part-001000.parquet": {
+      "sha256": "3cc99973c95721d7828b75c2fe70d50d1c59b9e129b7bbf5b851fae73c5e105d",
+      "bytes": 3536202
+    },
+    "models-library/map/phase1/part-001250.parquet": {
+      "sha256": "2e79f869db6e378249c5a83ea64d77be5b738ccfb39f37a4e8acbc5b3ba1026f",
+      "bytes": 3308317
+    },
+    "models-library/map/phase1/part-001500.parquet": {
+      "sha256": "067942fc774eadad1b9507a588bde7e77536ba9893a867e31cd1483ecd74947d",
+      "bytes": 2237806
+    },
+    "models-library/map/phase1/part-001750.parquet": {
+      "sha256": "41bd6a0a206cadc774768248a8dfb710be47081793c15c2e7fc6188f8fb38048",
+      "bytes": 3731101
+    }
+  }
+}

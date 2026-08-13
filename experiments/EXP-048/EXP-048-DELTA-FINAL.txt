@@ -1,0 +1,14 @@
+EXP-048 Delta (Phase 1 → Phase 3 Final)
+=======================================
+
+Flipped:    241
+Collateral: 2
+Regressed:  86
+Rate:       4.33%
+
+By dimension:
+  D1: 75
+  D2: 66
+  D3: 46
+  D4: 37
+  D5: 17

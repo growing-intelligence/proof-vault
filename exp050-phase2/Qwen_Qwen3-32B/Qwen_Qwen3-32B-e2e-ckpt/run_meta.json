@@ -1,0 +1,1 @@
+{"model": "Qwen/Qwen3-32B", "arch": "llama", "n_layers": 64, "is_encoder": false}

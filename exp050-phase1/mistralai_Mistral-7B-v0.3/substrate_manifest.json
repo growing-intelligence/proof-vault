@@ -1,0 +1,72 @@
+{
+  "model": "mistralai_Mistral-7B-v0.3",
+  "exp": "EXP-050 Phase 1",
+  "files": {
+    "phase1/part-000000.parquet": {
+      "sha256": "ed2711d0e94d2979b4a5c9b4c5c93d54e5975fef1362b2103b811287a452c43a",
+      "bytes": 3652870
+    },
+    "phase1/part-000250.parquet": {
+      "sha256": "6f127ba3f68ad40d10b51c8a3bc81c5ec30cc3f5058cfc84708de4cb97489e19",
+      "bytes": 3741388
+    },
+    "phase1/part-000500.parquet": {
+      "sha256": "2842fa89e18abc5a1131e8b5ded56e4e64ecd508a93fd801fd15d0d1af40a8b0",
+      "bytes": 3543860
+    },
+    "phase1/part-000750.parquet": {
+      "sha256": "890786814af704e89308bff1e6e4688b90f2a37c26275781e2dd4dfa5bb0f507",
+      "bytes": 2990902
+    },
+    "phase1/part-001000.parquet": {
+      "sha256": "3cc99973c95721d7828b75c2fe70d50d1c59b9e129b7bbf5b851fae73c5e105d",
+      "bytes": 3536202
+    },
+    "phase1/part-001250.parquet": {
+      "sha256": "2e79f869db6e378249c5a83ea64d77be5b738ccfb39f37a4e8acbc5b3ba1026f",
+      "bytes": 3308317
+    },
+    "phase1/part-001500.parquet": {
+      "sha256": "067942fc774eadad1b9507a588bde7e77536ba9893a867e31cd1483ecd74947d",
+      "bytes": 2237806
+    },
+    "phase1/part-001750.parquet": {
+      "sha256": "41bd6a0a206cadc774768248a8dfb710be47081793c15c2e7fc6188f8fb38048",
+      "bytes": 3731101
+    },
+    "holdout/part-000000.parquet": {
+      "sha256": "6aa2615713670c153d18d925d3d2ebd68a5b52cce03b6e189d621f1c4ddc035a",
+      "bytes": 3648294
+    },
+    "holdout/part-000250.parquet": {
+      "sha256": "47fafbb82ece542640eb52b4ed9dc28455e3f9a19e8be52ea0051d5f650010d0",
+      "bytes": 3734364
+    },
+    "holdout/part-000500.parquet": {
+      "sha256": "4f36d0778e547ab14f1c704dfb1c53e1af91abd7d3a24ad696afc8f906ba2e32",
+      "bytes": 3566428
+    },
+    "holdout/part-000750.parquet": {
+      "sha256": "09ff75e25bb0fb3de9e6964f1693c876a66678e1caa4f04fd6736d47cb1e8c10",
+      "bytes": 3210257
+    },
+    "holdout/part-001000.parquet": {
+      "sha256": "67cbc139826baddf0a75c2c63feaaba4002417edbdef0b1cd636472bf2bf72e5",
+      "bytes": 3548619
+    },
+    "holdout/part-001250.parquet": {
+      "sha256": "9e5fc04a5f3d55b3902c678b4f7b0a3ed01e01b94e3c3a6b8eab1752c873e053",
+      "bytes": 3184984
+    },
+    "holdout/part-001500.parquet": {
+      "sha256": "efbc8f9313960bcf2d273904a6313da2f27d5a73952893718f4da473de258ae0",
+      "bytes": 2254890
+    },
+    "holdout/part-001750.parquet": {
+      "sha256": "302f5746882af7a2d5f48673488b0be7a883a57390c14812786b7e653896f72d",
+      "bytes": 3730954
+    }
+  },
+  "substrate_root_sha256": "7bff8d98a9a9bff98bb5ce52206684ff84d677d74f53e3f87ce7819e707cf347",
+  "file_count": 16
+}

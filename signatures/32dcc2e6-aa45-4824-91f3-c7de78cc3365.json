@@ -1,0 +1,12 @@
+{
+  "arweave_tx": "",
+  "customer_email_hash": "e7dfe635296bc69d59f101f87eb9f50b27da2c730465da079d3a810aa2025a9a",
+  "github_url": "",
+  "hash": "00cb1b937c66c51c842a290268b49d695017582795803ad47188898789bb1cca",
+  "model_id": "Qwen/Qwen2.5-3B",
+  "pubkey": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+  "report_id": "32dcc2e6-aa45-4824-91f3-c7de78cc3365",
+  "signature": "c197d4590a98a94ba638349e5e2e5c3df6c24a2f1fec8f42af28dd2f39632addb7429497ee37b5ae863dc3dd5feb1c9aaac3c34c60c7cda2fee62133666b4104",
+  "timestamp": "2026-07-09T17:16:41.572797+00:00",
+  "type": "scan"
+}

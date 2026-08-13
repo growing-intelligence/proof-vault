@@ -1,0 +1,8 @@
+{
+  "file": "substrate_manifest.json",
+  "sha256": "f88eba37111d2f0f85d7d76d3743f0905dc478eee831a3e2e81ca9d97271565e",
+  "pubkey": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+  "signature": "7c76cb8cdc42d56717de85dbecfd7a15528e24f0bf708c6fc5dffba1377a013db33c1c07c647ebbb38925d95043baddb911292b63b69b122405c1f01efa0c900",
+  "alg": "ed25519",
+  "signed_ts": "2026-07-26T13:07:53Z"
+}

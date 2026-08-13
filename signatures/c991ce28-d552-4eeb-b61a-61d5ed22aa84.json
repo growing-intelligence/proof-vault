@@ -1,0 +1,12 @@
+{
+  "arweave_tx": "",
+  "customer_email_hash": "e7dfe635296bc69d59f101f87eb9f50b27da2c730465da079d3a810aa2025a9a",
+  "github_url": "",
+  "hash": "a9788ccdcaea964820df9ec8965b453bfeed05ca6c790ecf0a1b936d3587143a",
+  "model_id": "gpt2",
+  "pubkey": "942557aabcea957f58f1743603ef70df3a90c2357c229c1e8622b635a5c155ad",
+  "report_id": "c991ce28-d552-4eeb-b61a-61d5ed22aa84",
+  "signature": "b13abba1306cf4917c8dfe395a83f22f23f61dd6e22d3d3898651be68c122f2dc19015385c549299fe1d734069bce3a3f72f0f8916cc6c985f73cb56ae165003",
+  "timestamp": "2026-07-10T15:29:27.503515+00:00",
+  "type": "scan"
+}

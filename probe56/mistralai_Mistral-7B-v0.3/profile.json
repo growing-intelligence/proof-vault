@@ -1,0 +1,110 @@
+{
+  "status": "completed",
+  "phase": "phase6_complete",
+  "model": "mistralai/Mistral-7B-v0.3",
+  "questions": "/workspace/GI-Engine/probe56-release/phase1_diagnosis_2k.json",
+  "mode": "full",
+  "dimensions_requested": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ],
+  "reports_dir": "/root/docs/probe56/reports",
+  "updated_at": "2026-07-26T10:04:42Z",
+  "created_at": "2026-07-26T10:04:17Z",
+  "ckpt_dir": "/workspace/GI-Engine/docs/probe56/results/mistralai_Mistral-7B-v0.3-e2e-ckpt",
+  "fix_sets": [],
+  "dimensions_completed": [],
+  "scan_checkpoints": [
+    {
+      "name": "SCAN-cycle1_full.json",
+      "path": "/root/docs/probe56/reports/scan_ckpt/SCAN-cycle1_full.json"
+    },
+    {
+      "name": "SCAN-phase1.json",
+      "path": "/root/docs/probe56/reports/scan_ckpt/SCAN-phase1.json"
+    },
+    {
+      "name": "SCAN-phase3.json",
+      "path": "/root/docs/probe56/reports/scan_ckpt/SCAN-phase3.json"
+    }
+  ],
+  "total_scanned": 10,
+  "last_session_scanned": 10,
+  "phase1": {
+    "total": 10,
+    "correct": 0,
+    "fixable": 0
+  },
+  "scanned_question_ids": [
+    "1de73f009f97ec80",
+    "3c4afa5ed164be4e",
+    "48c108bca92cd100",
+    "58cc5d9454e0169a",
+    "648c04c568ec6d9c",
+    "68b407c567417b05",
+    "baecd7306af0780d",
+    "bf8ae83e16ecb0f8",
+    "c7ec4f9695c9008e",
+    "c7fea2ea99ee55f7"
+  ],
+  "scanned_ids_file": "/workspace/GI-Engine/docs/probe56/results/mistralai_Mistral-7B-v0.3-e2e-ckpt/scanned_ids.txt",
+  "per_dimension": {
+    "D1": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D2": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D3": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D4": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    },
+    "D5": {
+      "collateral": 0,
+      "efficacy_total": 0,
+      "efficacy_after": 0,
+      "units_installed": 0,
+      "layers_used": []
+    }
+  },
+  "collateral_measured": 0,
+  "cycles": 1,
+  "fix_vectors": 0,
+  "final_collateral": 0,
+  "collateral_damage": 0,
+  "documented_residual": 0,
+  "residual_note": "no residual collateral",
+  "flipped": 0,
+  "fixable": 0,
+  "runtime_s": 65.6,
+  "reports": [
+    "/root/docs/probe56/reports/Probe56-1-BASELINE-SCAN.pdf",
+    "/root/docs/probe56/reports/Probe56-2-D1-REPAIR.pdf",
+    "/root/docs/probe56/reports/Probe56-3-D2-REPAIR.pdf",
+    "/root/docs/probe56/reports/Probe56-4-D3-REPAIR.pdf",
+    "/root/docs/probe56/reports/Probe56-5-D4-REPAIR.pdf",
+    "/root/docs/probe56/reports/Probe56-6-D5-REPAIR.pdf",
+    "/root/docs/probe56/reports/Probe56-7-FINAL-SUMMARY.pdf"
+  ]
+}
