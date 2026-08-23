@@ -1,0 +1,12 @@
+{
+  "arweave_tx": "",
+  "customer_email_hash": "",
+  "github_url": "",
+  "hash": "73ef8f2a7629f5e28f132eab83fcc77ee1230f74ed2c910acd6ace553399426f",
+  "model_id": "",
+  "pubkey": "16dad6b2151cffdae0e42cfe0118b90cfff2caa16158c24b9b1d151ca737c299",
+  "report_id": "freeze-gi-certified-v1-phase1",
+  "signature": "564fae16de1e8fa580ddc33d12ee7f8fe7eeb50642a472581730702952ccff9e2048c3cab75ed5a841b8c55922b558bd45a09cf510f849a7d6ae84d971aead00",
+  "timestamp": "2026-08-13",
+  "type": "freeze"
+}

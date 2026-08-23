@@ -1,0 +1,181 @@
+{
+ "certificate_id": "GIC-PRIMEHEALTH-2026-001",
+ "certified_name": "Prime-Health",
+ "attribution": "built on DictaLM-3.0-24B-Thinking by Growing Intelligence",
+ "issued_utc": "2026-08-23T13:48:29Z",
+ "geometry": {
+  "hidden_size": 5120,
+  "layers": 40,
+  "vocab": 131072,
+  "conductors": 204800,
+  "dtype": "bfloat16",
+  "architecture": "MistralForCausalLM (dense)"
+ },
+ "benchmark": {
+  "name": "HebrewHealthBench v1 + HebrewGeneralBench v1",
+  "questions_scored": 2430,
+  "scoring": "gold answer at rank 1 over the full 131,072-token vocabulary"
+ },
+ "optimization": {
+  "before_correct": 683,
+  "before_pct": 28.11,
+  "after_correct": 1036,
+  "after_pct": 42.63,
+  "gain_questions": 353,
+  "gain_points": 14.53,
+  "collateral": 0,
+  "collateral_raw": 5,
+  "harness_floor": 6,
+  "collateral_statement": "zero collateral above a measured harness floor of 6/683; the repaired model reproduced rank-1 on MORE previously-correct rows (5) than the untouched model failed (6)"
+ },
+ "per_dimension": {
+  "D-BEHAVIORAL_EMERGENCY": {
+   "before": 15,
+   "after": 36,
+   "total": 134
+  },
+  "D-DRUG_NAME_MAPPING": {
+   "before": 29,
+   "after": 42,
+   "total": 95
+  },
+  "D1": {
+   "before": 176,
+   "after": 263,
+   "total": 416
+  },
+  "D2": {
+   "before": 140,
+   "after": 182,
+   "total": 358
+  },
+  "D3": {
+   "before": 110,
+   "after": 118,
+   "total": 253
+  },
+  "D4": {
+   "before": 39,
+   "after": 123,
+   "total": 301
+  },
+  "D5": {
+   "before": 83,
+   "after": 183,
+   "total": 498
+  },
+  "D6": {
+   "before": 53,
+   "after": 61,
+   "total": 125
+  },
+  "D7": {
+   "before": 1,
+   "after": 3,
+   "total": 125
+  },
+  "D8": {
+   "before": 37,
+   "after": 25,
+   "total": 125
+  }
+ },
+ "monitoring": {
+  "gyro_layers": 40,
+  "calibration_hebrew": 200,
+  "calibration_english": 200,
+  "on_equals_off": true,
+  "max_logit_difference": 0.0,
+  "statement": "monitoring active on every layer for every generated token"
+ },
+ "guardian": {
+  "block_rules": 72,
+  "allow_rules": 2,
+  "false_positives_on_health_questions": 0,
+  "health_questions_audited": 2080,
+  "latency_ms": 0.03,
+  "gpu_used": false
+ },
+ "verification": {
+  "tests": 7,
+  "passed": 7,
+  "max_seconds": 2.19,
+  "speed_gate_seconds": 2.5,
+  "over_gate": 0,
+  "emergency_directs_to_101": true,
+  "refuses_dosage": true,
+  "no_vendor_disclosure": true,
+  "no_mechanism_disclosure": true
+ },
+ "performance": {
+  "tokens_per_second": 22.5,
+  "worst_answer_seconds": 1.7751357555389404
+ },
+ "evidence": {
+  "merkle_root_sha256": "f4bb19d0aaba7504f84055cbcd6a6b30c07fe1a82097638caa5dc9bc5d713cc6",
+  "files": {
+   "evidence-01": {
+    "sha256": "f3c9b0efce21aeb8cbeb91f14ad6c77732d7354ac22f88ef53bd69bb35293f7a",
+    "bytes": 2448
+   },
+   "evidence-02": {
+    "sha256": "ab8fbbd3aca36f26b1579a3ac0de2f238555b46097d5642c4c8faf1296fcda5a",
+    "bytes": 3939
+   },
+   "evidence-03": {
+    "sha256": "5728de737f16fcced81aeb7a0463cb3d61d7ca7958c8ac75259422e6f3466f13",
+    "bytes": 23186
+   },
+   "evidence-04": {
+    "sha256": "5708a80077f52b56248b3900848159cd87fecd34bbeb0319a8d2de43b6aebaef",
+    "bytes": 18732171
+   },
+   "evidence-05": {
+    "sha256": "abf55d7292a987edd0d5ef45c514c7fcde8d975c9f935bbd9cf46472b65c30d2",
+    "bytes": 1662285
+   },
+   "evidence-06": {
+    "sha256": "13ef364631213c5dd4ae07b01db9f848847a01cd733e9f67c447da370a3cb262",
+    "bytes": 2548
+   },
+   "evidence-07": {
+    "sha256": "1cc685b20549e4d5fecceb3fe397e748dc5ba42af016ab67700cd35037687461",
+    "bytes": 1783
+   },
+   "evidence-08": {
+    "sha256": "ba09fd2e4c28e7be22fb325a70b7beef4fe0830dd1f7ec1f60f870b41c223407",
+    "bytes": 1142119
+   },
+   "evidence-09": {
+    "sha256": "8b3fcf536d4ef6b02267bd86d36c429252287f7e52dc05d7902fce4fa0ae90be",
+    "bytes": 753
+   },
+   "evidence-10": {
+    "sha256": "6bfba0772e7c92dc16e5513a671de4b4484eca859ab05fd8ea5f0e37c67a7c02",
+    "bytes": 641218
+   },
+   "evidence-11": {
+    "sha256": "c9529d6b26de6d6cdd9c23580c3ff507343f1dc42a9913242de736c9ab99a6e1",
+    "bytes": 2474703
+   },
+   "evidence-12": {
+    "sha256": "24868be04829c451aecde20aac2bb1e70b0f16bbe30f8944ffba2df144ec2a85",
+    "bytes": 655
+   }
+  },
+  "labels_note": "Evidence artefacts are published by label. Each hash is the sha256 of the artefact it labels; the Merkle root is computed over these hashes in the order listed. The private manifest maps labels to artefacts and is disclosed under NDA."
+ },
+ "disclosures": [
+  "Accuracy is measured as the gold answer reaching rank 1 over the full vocabulary.",
+  "Collateral is reported above a measured harness floor; the raw count is stated.",
+  "Guardian rules are an injection and jailbreak pre-filter. They are not a clinical hallucination filter.",
+  "The method is patent-protected and is not described in this certificate."
+ ],
+ "proof_vault": "https://github.com/growing-intelligence/proof-vault/tree/main/prime-health/GIC-PRIMEHEALTH-2026-001",
+ "founder_signature_ed25519_b64": "cqVpABe9w2u4KQUv0MwMp32FuRf+VnNFbcsCSCc8sGeRov9h9KyTPPp+7DhknFGqCu74XSYeKXxTt4bbQgU1Aw==",
+ "founder_signature_status": "SIGNED by the Founder key on the Founder machine",
+ "build_pubkey_ed25519_b64": "sLHGMQL0p1J6fbYMCW4wMz6YbNLFCdl5pcmWxwmDZKo=",
+ "build_signature_ed25519_b64": "y+rZk8ViZ8NA539TAwnGRPF0pgKqjC7dj6WmVU8W64JvyiI5kEg9+oXdoIVCANKqtT2bV53kRqmDy8x/C51EBg==",
+ "canonical_sha256": "cc1edbe98043dcd31579a07cc90551f8c75547bc746fb0929fc98808d012f4e3",
+ "founder_pubkey_ed25519_b64": "FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk="
+}
