@@ -1,0 +1,158 @@
+{
+ "certificate_id":"GIC-PRIMEBANK-2026-001",
+ "certified_name":"Prime-Bank",
+ "attribution":"built on DictaLM-3.0-24B-Thinking by Growing Intelligence",
+ "issued_utc":"2026-08-24T15:11:42Z",
+ "geometry":{
+  "hidden_size":5120,
+  "layers":40,
+  "vocab":131072,
+  "conductors":204800,
+  "dtype":"bfloat16",
+  "architecture":"MistralForCausalLM (dense)"
+ },
+ "benchmark":{
+  "name":"HebrewBankBench v1",
+  "questions_scored":1779,
+  "scoring":"gold answer at rank 1 over the full 131,072-token vocabulary"
+ },
+ "optimization":{
+  "before_correct":565,
+  "before_pct":31.76,
+  "after_correct":1238,
+  "after_pct":69.59,
+  "gain_questions":673,
+  "gain_points":37.83,
+  "collateral":0,
+  "harness_floor":565,
+  "collateral_statement":"zero collateral above a float32-verified floor of 565/573 controls; 8 of the original 573 were found, under corrected batched-regime ranking with two measurement bugs fixed, to have never actually reached rank 1 -- an original-scan misclassification, not repair-caused damage. Verified against the corrected 565-control set.",
+  "measurement_note":"ranks_batched carried two bugs, both fixed and independently verified before this measurement: (1) a row finishing scaffold-walk early was reading a later, padded-and-masked position's logits instead of its own; (2) no explicit padding-aware position_ids for left-padded batches. A residual bf16 exact-tie effect on borderline questions was also found and is why this certificate's numbers are measured in float32 (see verification.precision)."
+ },
+ "per_dimension":{
+  "D1":{
+   "before":108,
+   "after":208,
+   "total":279
+  },
+  "D2":{
+   "before":83,
+   "after":139,
+   "total":199
+  },
+  "D3":{
+   "before":180,
+   "after":398,
+   "total":546
+  },
+  "D4":{
+   "before":39,
+   "after":84,
+   "total":168
+  },
+  "D5":{
+   "before":66,
+   "after":143,
+   "total":212
+  },
+  "D6":{
+   "before":56,
+   "after":96,
+   "total":125
+  },
+  "D7":{
+   "before":1,
+   "after":87,
+   "total":125
+  },
+  "D8":{
+   "before":32,
+   "after":83,
+   "total":125
+  }
+ },
+ "repair":{
+  "method":"RAISE56 v1+v2 hybrid",
+  "layer":30,
+  "vectors_total":1989,
+  "vectors_v1":1190,
+  "vectors_v2":799,
+  "v1_gate":"scalar threshold: relu(x.khat - thr) -- baked into served weights (silu-unit MLP widening, exact within 2.7e-4 of true relu)",
+  "v2_gate":"56-dim centered-cosine fingerprint gate, threshold 0.95 -- served as a runtime plugin layer (this gate has no scalar-projection form, so it cannot be baked with the v1 technique)"
+ },
+ "monitoring":{
+  "gyro_layers":40,
+  "calibration_hebrew":200,
+  "calibration_english":200,
+  "on_equals_off":true,
+  "max_logit_difference":0.0,
+  "calibrated_on":"repaired weights (1,190 v1 adapters installed)",
+  "overhead_ms_per_query":69.69,
+  "statement":"monitoring active on every layer for every generated token"
+ },
+ "guardian":{
+  "block_rules":72,
+  "allow_rules":2,
+  "heldout_recall_pct":72.73,
+  "heldout_fp_pct":0.0,
+  "avg_block_latency_ms":3.67,
+  "gpu_used":false,
+  "statement":"Guardian rules are an injection and jailbreak pre-filter, run before the GPU. They are not a financial-advice or clinical-hallucination filter."
+ },
+ "verification":{
+  "tests":15,
+  "passed":15,
+  "max_seconds":1.795,
+  "speed_gate_seconds":2.5,
+  "over_gate":0,
+  "precision":"float32 head (bf16 backbone, fp32 final hidden state + norm + lm_head) -- bf16 was found to produce exact logit ties on borderline questions that flip rank by batch composition; float32 resolves them. bf16 remains standard for scan, repair, and production serving.",
+  "no_vendor_disclosure":true,
+  "no_mechanism_disclosure":true,
+  "jailbreak_blocked":true
+ },
+ "disclosures":[
+  "Accuracy is measured as the gold answer reaching rank 1 over the full vocabulary.",
+  "Collateral is reported above a float32-verified floor; 8 of the original 573 controls were reclassified from 'correct' to 'fixable' after the corrected measurement showed they never reached rank 1 -- not repair-caused damage.",
+  "v2's 799 vectors are served as a runtime plugin, not baked into the weights, because their gate (a 56-dim fingerprint cosine) has no representation as the scalar-projection silu-widening technique used to bake v1.",
+  "Guardian rules are an injection and jailbreak pre-filter. They are not financial or medical advice filters.",
+  "The method is patent-protected and is not described in this certificate."
+ ],
+ "evidence":{
+  "merkle_root_sha256":"c6cbec35c3a54f934a64f2c7778a016107c1bdcec5997ba5985339deee39b01a",
+  "merkle_method":"sha256 of the concatenation of the hashes below, in the order listed",
+  "files":{
+   "v1-repair-vectors":{
+    "sha256":"2f0f15fe7416a5447a96203afcdb2a0b7d4cc1c96598ca15af60c1665a395785",
+    "artifact":"fixes_L30_RAISE56.pkl"
+   },
+   "v2-plugin-bundle":{
+    "sha256":"9abc4522bf50a2f53e784719c8aa9b65b1a93c606904b4d5846db21e27dfad58",
+    "artifact":"v2_plugin_bundle.pt"
+   },
+   "health-final":{
+    "sha256":"9c325892ecf2146601c6e2d4ba4b1ef5ef2a44edd64ab59ca081e44c9acb6057",
+    "artifact":"health_final.json"
+   },
+   "scan":{
+    "sha256":"adcff03141bd1d4fcaea668bd1040014597e56bca597261bc16eef5100f546b5",
+    "artifact":"scan.json"
+   },
+   "guardian-rules":{
+    "sha256":"5728de737f16fcced81aeb7a0463cb3d61d7ca7958c8ac75259422e6f3466f13",
+    "artifact":"guardian_rules_v2.json"
+   },
+   "conductor-map":{
+    "sha256":"0e4ae8fd6051a6f395ce36aeda18bb91a80936e83486da861e7600e6be731696",
+    "artifact":"element_overlap_map.npz"
+   },
+   "bake-manifest":{
+    "sha256":"26b9541aa920e5f876b79d570ac92d3b8cc15d0a5509d659d3b68b73a6beb801",
+    "artifact":"BAKE_MANIFEST.json"
+   }
+  },
+  "labels_note":"Evidence artefacts are published by label. Each hash is the sha256 of the artefact it labels; the private manifest maps labels to artefacts and is disclosed under NDA. The 46GB baked weights checkpoint is referenced via its own bake manifest hash rather than a full-directory hash, for practicality."
+ },
+ "proof_vault":"https://github.com/growing-intelligence/proof-vault/blob/main/prime-bank/GIC-PRIMEBANK-2026-001/GIC-Prime-Bank-certificate.json",
+ "founder_pubkey_ed25519_b64":"FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=",
+ "founder_signature_ed25519_b64":"wyJdQrDakLs/HP4KKr5ObFplk1EF3XkefMCdBHsxK2Zczh70+oG/l39sSsLP2pEZZF/9+CXj+uhE7lBp4ScIDg==",
+ "founder_signature_status":"SIGNED by the Founder key on the Founder machine"
+}
