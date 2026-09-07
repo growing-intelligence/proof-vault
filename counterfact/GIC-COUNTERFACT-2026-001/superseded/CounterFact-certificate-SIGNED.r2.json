@@ -69,7 +69,7 @@
   "packages/AlphaEdit/MANIFEST.json": "48d5259e004aa583d231ac3bc660910331ba318a2b39999e0eda342cfa2c3a23",
   "packages/MEMIT/MANIFEST.json": "41ea1af4fad93616f6c70dade6885a7b16a51a756cdcf30ded991d41731047d4",
   "packages/ROME/MANIFEST.json": "3cb8a496210b0423bdab984947216cf0f885284e2ed13eccbe01ecf3b1f67bfa",
-  "packages/ROME1/MANIFEST.json": "466dc94d824677dd86264645dddee43dfdcdd6eb34ae1900478f7d5768baced8",
+  "packages/ROME1/MANIFEST.json": "d9f95501472e940591200c749f95174897e1b2fd9b56d70d120954622df9b252",
   "packages/ROME10/MANIFEST.json": "55aa8f6762de41089f6b31d21589ba9d900611eca266dcdd3a895bf340f03cfd",
   "probe56/census_summary.json": "4730022e41b826a814c4480438868952ee9aefdf0c37452b7acb9ca3580bcc9e",
   "runs/AlphaEdit/controls_results.jsonl": "5b83450c47ac9ae9d55b158e7a0b655762d5ed7caeff203e38500bb459e38572",
@@ -86,21 +86,13 @@
   "runs/Probe56/heldout_results.jsonl": "bdc112e79f67408177f8d3cb9e715facd40c44139643fd0ca5600eb1bc2cb5b3",
   "runs/ROME/controls_results.jsonl": "5b797c800cbd3cdc724da1554884fbd3aa54e7cd9b5b395f076ffa91eede93a4",
   "runs/ROME/edits_results.jsonl": "9f684dfb867e17e13bece46328776b70f747bf7f5cc785473a831b85f626b499",
-  "runs/ROME/heldout_results.jsonl": "01e3c7f1fd3ebd092cfab6a1ba37a7f4e511a65a45594d897401b35ff0ff7c45",
-  "runs/ZeroEditControl/controls_results.jsonl": "2ddec9195c90acca4e79931a44f0f61028a0dff9647920fba4517bbeed87188b",
-  "runs/ZeroEditControl/edits_results.jsonl": "2f5b1eead72a27130763b771e49bae396ac20a1f9a797246ce7afb7547f20cb1",
-  "runs/ZeroEditControl/heldout_results.jsonl": "3afe89caa04361bc7a6bc035960681b8b34b15b0b92f2d3bdbc052b071cb91ed",
-  "verify_certificate.py": "ffe38d9ef0db526554822d663c9ba8d1b846a9a99cbeb99118440b07eeaf8504",
-  "zero_edit_control/controls_RUN_CONDITIONS.json": "a150c1d1959c8dc4cfb70f8bb19fbc9af787594c82d0571ef1c9750b36405e60",
-  "zero_edit_control/edits_RUN_CONDITIONS.json": "1e8a4e93ef579bdecc3e29b7346e381e1c4cef2853af17a18a74291b9a98209e",
-  "zero_edit_control/fp16rt_build.json": "e15d23aabd6658c2b0f7be359cfba5bde08f73111c27d743e9c2c5ed8123eab5",
-  "zero_edit_control/heldout_RUN_CONDITIONS.json": "9a2d705b171eb3003ae7b101a96d24c7bfda42b7fed3bcb310a0ef355846ed25"
+  "runs/ROME/heldout_results.jsonl": "01e3c7f1fd3ebd092cfab6a1ba37a7f4e511a65a45594d897401b35ff0ff7c45"
  },
  "founder_pubkey_ed25519_b64": "FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=",
  "harness": "rank-1 of the gold token over the full vocabulary; bf16 backbone, fp32 lm_head, left padding with padding-aware position ids, batch 24, fixed order; identical script for every run (harness/cf_harness.py)",
  "issued_utc": "2026-09-07",
  "merkle_definition": "sha256 over the sorted lines 'path:sha256\\n' of file_hashes_sha256",
- "merkle_root_sha256": "561696d5c38f65d49e9f073742c7c0517882b906a43f47a09396a49fb844234f",
+ "merkle_root_sha256": "ca5b76f5496b03f7aadd6e5577e9dff3a07be5db8656f87646a68fe6327f2db5",
  "methods": {
   "AlphaEdit": "sequential batches of 100",
   "MEMIT": "one mass edit of 1,000",
@@ -214,15 +206,14 @@
    "sha256": "d8c294ef8f951ef2afb07dbfa9ab04603582ebeb83bbdbca59428b923f0014cc"
   }
  },
- "revision": 3,
- "self_sha256": "909bf42c6e4ad31d63f602201cbc8c37fc2e02565b5d9435d87c31f8b8cd0dd5",
+ "revision": 2,
+ "self_sha256": "f143ab535fe28c05bcca7a4c69f78651158806b83774a51745086065858278a1",
  "signature": {
   "algorithm": "Ed25519",
-  "message": "canonical JSON of this file with the 'signature' and 'self_sha256' fields removed: json.dumps(obj, sort_keys=True, separators=(',',':'), ensure_ascii=True) encoded UTF-8. ensure_ascii=True (non-ASCII characters escaped as \\uXXXX) is part of the rule; the document text contains non-ASCII characters, so serialising without it produces different bytes and the signature will not verify.",
+  "message": "canonical JSON (sorted keys, separators ',' ':') of this file without 'signature' and 'self_sha256'",
   "public_key_b64": "FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=",
-  "self_sha256_definition": "sha256 of those same canonical bytes",
-  "signature_b64": "pOWCVY9vr1xI8NbfCeRCdNHzNA20TQMOkiTm77RDlGakW3VQnyQRmj+bGDmdOrB/zkSjX1f0239Cbr8FNZzDCg==",
-  "signed_utc": "2026-09-07T13:08:15Z",
+  "signature_b64": "Aq5dwUd5QWKvCfD7BF6m/fzkIHPmHl+VvGML8y5ogpHg9UO/QL1BvxYRv9ZxsZ+CCCsdrP1kTvUr4VUKFhpmBA==",
+  "signed_utc": "2026-09-07T11:34:29Z",
   "signer": "Founder, Growing Intelligence"
  },
  "splits": {
@@ -238,24 +229,17 @@
   }
  },
  "supersedes": {
-  "earlier": {
-   "reason": "Baseline package manifests replaced by the manifests of the public packages: files produced by the private measurement harness were removed from the packages and the open scoring-only harness substituted (same scoring rule; every results file unchanged). Revision 1 is void.",
-   "revision": 1,
-   "self_sha256": "8390aa397c38019274e8ea4ed2bb66021b88bd0abd9514f322cbd714a462e266",
-   "signed_utc": "2026-09-07T11:09:54Z"
-  },
-  "reason": "ROME1 edits split re-scored under sterile conditions (the first scoring was VOID: a host process during the run); packages/ROME1/MANIFEST.json re-hashed. Revision 2 is void.",
-  "revision": 2,
-  "self_sha256": "f143ab535fe28c05bcca7a4c69f78651158806b83774a51745086065858278a1",
-  "signed_utc": "2026-09-07T11:34:29Z"
+  "reason": "Baseline package manifests replaced by the manifests of the public packages: files produced by the private measurement harness were removed from the packages and the open scoring-only harness substituted (same scoring rule; every results file unchanged). Revision 1 is void.",
+  "revision": 1,
+  "self_sha256": "8390aa397c38019274e8ea4ed2bb66021b88bd0abd9514f322cbd714a462e266",
+  "signed_utc": "2026-09-07T11:09:54Z"
  },
  "verification": [
   "Download the proof package.",
   "Compute SHA256 of every file and match SHA256SUMS.txt and file_hashes_sha256.",
   "Recount the numbers from runs/*/\u2026 (rank == 1 per row) and match 'numbers'.",
   "Recompute merkle_root_sha256 per merkle_definition.",
-  "Verify the Ed25519 signature against the public key FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=. The signed bytes are this JSON with the 'signature' and 'self_sha256' fields removed, serialised as canonical JSON: sorted keys, separators (',',':'), ensure_ascii=True (non-ASCII characters escaped as \\uXXXX), encoded UTF-8 \u2014 in Python, json.dumps(obj, sort_keys=True, separators=(',',':'), ensure_ascii=True).encode('utf-8'). ensure_ascii=True is part of the rule: this document contains non-ASCII characters, so serialising without it produces different bytes and the signature will not verify. 'self_sha256' is the sha256 of those same bytes.",
-  "Or run the script that does all of the above: python verify_certificate.py CounterFact-certificate-SIGNED.json (needs only the 'cryptography' package)."
+  "Verify the Ed25519 signature of this JSON (canonical: sorted keys, compact separators, without the 'signature' and 'self_sha256' fields) against the public key FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=."
  ],
  "weights": {
   "AlphaEdit": {
@@ -308,87 +292,5 @@
    "model.safetensors_sha256": "b314d2d010dc7654707057871febdbce87f716f31596a2cb43870ae7bfd88381",
    "note": "edited weights saved by EasyEdit (bf16 safetensors)"
   }
- },
- "zero_edit_control": {
-  "harness_sha256": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611",
-  "numbers": {
-   "base_controls_known": 492,
-   "base_edits_rank1": 2,
-   "base_heldout_rank1": 1753,
-   "controls_broken_above_floor": 1,
-   "controls_not_rank1": 4,
-   "delta_per_benchmark_pp": {
-    "arc_challenge": -0.26,
-    "gpqa_diamond": 2.04,
-    "gsm8k": -0.68,
-    "mmlu_pro": 0.07,
-    "truthfulqa_mc2": 0.37
-   },
-   "delta_total_pp": 0.04,
-   "edits_rank1": 2,
-   "heldout_gained": 30,
-   "heldout_rank1": 1755,
-   "heldout_regressed": 28,
-   "heldout_rows_changed_rank": 612
-  },
-  "run_conditions": {
-   "controls": {
-    "end_utc": "2026-09-07T12:38:11Z",
-    "gpu": "NVIDIA H100 80GB HBM3",
-    "start_utc": "2026-09-07T12:38:02Z",
-    "verdict": "STERILE"
-   },
-   "edits": {
-    "end_utc": "2026-09-07T12:37:39Z",
-    "gpu": "NVIDIA H100 80GB HBM3",
-    "start_utc": "2026-09-07T12:37:28Z",
-    "verdict": "STERILE"
-   },
-   "heldout": {
-    "end_utc": "2026-09-07T12:44:43Z",
-    "gpu": "NVIDIA H100 80GB HBM3",
-    "start_utc": "2026-09-07T12:38:35Z",
-    "verdict": "STERILE"
-   }
-  },
-  "weights": {
-   "built_from_base_files_sha256": {
-    "config.json": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
-    "generation_config.json": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
-    "model-00001-of-00004.safetensors": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
-    "model-00002-of-00004.safetensors": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
-    "model-00003-of-00004.safetensors": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
-    "model-00004-of-00004.safetensors": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
-    "model.safetensors.index.json": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
-    "special_tokens_map.json": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
-    "tokenizer.json": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
-    "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
-   },
-   "changed_tensors_per_shard": {
-    "model-00001-of-00004.safetensors": 70,
-    "model-00002-of-00004.safetensors": 82,
-    "model-00003-of-00004.safetensors": 78,
-    "model-00004-of-00004.safetensors": 2
-   },
-   "definition": "for every tensor t (bf16): t.to(float16).to(bfloat16); nothing else changed",
-   "elements_changed": 3899715,
-   "elements_total": 8030261248,
-   "files_sha256": {
-    "config.json": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
-    "generation_config.json": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
-    "model-00001-of-00004.safetensors": "da62c556625748e297991d7607ffa7721c092aad793cf70307d19b0cd7315d50",
-    "model-00002-of-00004.safetensors": "19ddf29d614356ad7f684c5f2ec7e87e3eb0f99e990f6ece094bfa77965818c4",
-    "model-00003-of-00004.safetensors": "2f336d4d0f80a4e0104bb46bdb28ee78fb41608f936070d6e91d518032b334ae",
-    "model-00004-of-00004.safetensors": "c23806e895e4fb8a3d15871514797ea37fd6b32f2bbf0c7f7dd2d5e2d924123b",
-    "model.safetensors.index.json": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
-    "special_tokens_map.json": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
-    "tokenizer.json": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
-    "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
-   },
-   "tensors_changed": 232,
-   "tensors_total": 291
-  },
-  "what": "the unmodified base weights converted bf16 -> fp16 -> bf16 with no edit (the dtype path of EasyEdit's shipped Llama-3-8B configs, fp16: true), scored on the same three splits with the same open harness, each split alone on the GPU (sterile)",
-  "why": "isolates the collateral every baseline inherits from its own shipped dtype setting from the collateral of its edits"
  }
 }

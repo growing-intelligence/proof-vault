@@ -23,9 +23,11 @@ certificate offline, without contacting us and without trusting this page.
 4. Verify the Ed25519 signature over those bytes against the public key printed in the
    certificate.
 
-The CounterFact certificate is at revision 2; revision 1 (commit 841e242) is superseded and its signature is void — it is kept under `superseded/` for the record.
+The CounterFact certificate is at revision 3; revisions 1 and 2 are superseded and their signatures are void — both are kept under `superseded/` for the record.
 
-The CounterFact certificate uses a single `signature` block: remove `signature` and `self_sha256`, serialise the rest with sorted keys and compact separators, and verify against the public key inside the block (the same Founder key).
+To verify it, run `python verify_certificate.py CounterFact-certificate-SIGNED.json` (it needs only the `cryptography` package): it checks the Ed25519 signature, the sha256 of every file the certificate lists, and the Merkle root over those hashes.
+
+The CounterFact certificate uses a single `signature` block: remove `signature` and `self_sha256`, then serialise the rest as canonical JSON — sorted keys, `(',',':')` separators, `ensure_ascii=True` (non-ASCII escaped as `\uXXXX`), encoded UTF-8 — and verify against the public key inside the block (the same Founder key). `ensure_ascii=True` is part of the rule: the document text contains non-ASCII characters, so serialising without it produces different bytes and the signature will not verify.
 
 The certificate also carries a Merkle root over the hashes of the evidence files behind the
 measurement, so a claimed result can be tied to the exact artefacts it was measured from.
