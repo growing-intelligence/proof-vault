@@ -11,6 +11,7 @@ certificate offline, without contacting us and without trusting this page.
 |---|---|---|
 | [`certificates/prime-56`](certificates/prime-56) | Prime-56 | GIC-PRIME56-2026-001 |
 | [`prime-health/GIC-PRIMEHEALTH-2026-001`](prime-health/GIC-PRIMEHEALTH-2026-001) | Prime-Health | 28.11% → 42.63% on 2,430 held-out Hebrew questions, zero regressions |
+| [`counterfact/GIC-COUNTERFACT-2026-001`](counterfact/GIC-COUNTERFACT-2026-001) | Probe56 on Llama-3.1-8B (CounterFact 1,000 edits vs ROME / MEMIT / AlphaEdit) | 841 / 1,000 edits, 0 / 492 nearby facts broken, held-out identical to the unmodified model |
 
 ## How to verify a certificate
 
@@ -21,6 +22,8 @@ certificate offline, without contacting us and without trusting this page.
    are the canonical form.
 4. Verify the Ed25519 signature over those bytes against the public key printed in the
    certificate.
+
+The CounterFact certificate uses a single `signature` block: remove `signature` and `self_sha256`, serialise the rest with sorted keys and compact separators, and verify against the public key inside the block (the same Founder key).
 
 The certificate also carries a Merkle root over the hashes of the evidence files behind the
 measurement, so a claimed result can be tied to the exact artefacts it was measured from.
