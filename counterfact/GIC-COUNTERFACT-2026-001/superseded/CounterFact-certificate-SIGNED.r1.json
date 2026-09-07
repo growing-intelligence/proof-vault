@@ -66,11 +66,11 @@
  "document": "CounterFact 1,000-edit comparison \u2014 ROME / MEMIT / AlphaEdit (EasyEdit, shipped defaults) vs Probe56 runtime hooks",
  "file_hashes_sha256": {
   "harness/cf_harness.py": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611",
-  "packages/AlphaEdit/MANIFEST.json": "48d5259e004aa583d231ac3bc660910331ba318a2b39999e0eda342cfa2c3a23",
-  "packages/MEMIT/MANIFEST.json": "41ea1af4fad93616f6c70dade6885a7b16a51a756cdcf30ded991d41731047d4",
-  "packages/ROME/MANIFEST.json": "3cb8a496210b0423bdab984947216cf0f885284e2ed13eccbe01ecf3b1f67bfa",
-  "packages/ROME1/MANIFEST.json": "d9f95501472e940591200c749f95174897e1b2fd9b56d70d120954622df9b252",
-  "packages/ROME10/MANIFEST.json": "55aa8f6762de41089f6b31d21589ba9d900611eca266dcdd3a895bf340f03cfd",
+  "packages/AlphaEdit/MANIFEST.json": "784927d3307af1c45544487424381ce4a380b0a8a0c7a072866ce042fd2644ef",
+  "packages/MEMIT/MANIFEST.json": "2e7d1c0ecbb873e5cc7e8fa3a45076fff02474ec714188598ac185f846180d04",
+  "packages/ROME/MANIFEST.json": "5b919870b657e74ef5e348958b8ad94b455fa7c3a3367fb302d4cf18b4a0058a",
+  "packages/ROME1/MANIFEST.json": "2210cd967d7efa8e0014cca03d90af3b20e3c3649a04acd7cb971e76ae641ade",
+  "packages/ROME10/MANIFEST.json": "2777a5ed8a0ed2603f33e21cf6c86fbc6c62698c1a62baaddbabd697d8a4aa86",
   "probe56/census_summary.json": "4730022e41b826a814c4480438868952ee9aefdf0c37452b7acb9ca3580bcc9e",
   "runs/AlphaEdit/controls_results.jsonl": "5b83450c47ac9ae9d55b158e7a0b655762d5ed7caeff203e38500bb459e38572",
   "runs/AlphaEdit/edits_results.jsonl": "322a75553b379c01a2f8a82af70d9941beeb2a65f62abd8d476937a7c6463ed0",
@@ -92,7 +92,7 @@
  "harness": "rank-1 of the gold token over the full vocabulary; bf16 backbone, fp32 lm_head, left padding with padding-aware position ids, batch 24, fixed order; identical script for every run (harness/cf_harness.py)",
  "issued_utc": "2026-09-07",
  "merkle_definition": "sha256 over the sorted lines 'path:sha256\\n' of file_hashes_sha256",
- "merkle_root_sha256": "ca5b76f5496b03f7aadd6e5577e9dff3a07be5db8656f87646a68fe6327f2db5",
+ "merkle_root_sha256": "f18384f4a97682345358732a829a36cd87dd2576873708eaede6658955d55c01",
  "methods": {
   "AlphaEdit": "sequential batches of 100",
   "MEMIT": "one mass edit of 1,000",
@@ -192,7 +192,6 @@
    }
   }
  },
- "packages_note": "packages/<M>/MANIFEST.json are the manifests of the published baseline packages; each package carries SHA256SUMS over every file.",
  "probe56_reproducibility_package": {
   "container_sha256": "2dc793c5c44b93dcdf4ee12f8f35c9d6219ff89124909502f3893a555be79234",
   "harness_sha256": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611",
@@ -206,14 +205,13 @@
    "sha256": "d8c294ef8f951ef2afb07dbfa9ab04603582ebeb83bbdbca59428b923f0014cc"
   }
  },
- "revision": 2,
- "self_sha256": "f143ab535fe28c05bcca7a4c69f78651158806b83774a51745086065858278a1",
+ "self_sha256": "8390aa397c38019274e8ea4ed2bb66021b88bd0abd9514f322cbd714a462e266",
  "signature": {
   "algorithm": "Ed25519",
   "message": "canonical JSON (sorted keys, separators ',' ':') of this file without 'signature' and 'self_sha256'",
   "public_key_b64": "FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=",
-  "signature_b64": "Aq5dwUd5QWKvCfD7BF6m/fzkIHPmHl+VvGML8y5ogpHg9UO/QL1BvxYRv9ZxsZ+CCCsdrP1kTvUr4VUKFhpmBA==",
-  "signed_utc": "2026-09-07T11:34:29Z",
+  "signature_b64": "b29IaDQkwrsFKp/JEvW53+I1z2Rdklxem/e1ddnc0F5FxmQbEoIQB/Aww4P5byPm67EIz8mzQkpZOZ3cxrwXDg==",
+  "signed_utc": "2026-09-07T11:09:54Z",
   "signer": "Founder, Growing Intelligence"
  },
  "splits": {
@@ -227,12 +225,6 @@
    "mmlu_pro": 4010,
    "truthfulqa_mc2": 270
   }
- },
- "supersedes": {
-  "reason": "Baseline package manifests replaced by the manifests of the public packages: files produced by the private measurement harness were removed from the packages and the open scoring-only harness substituted (same scoring rule; every results file unchanged). Revision 1 is void.",
-  "revision": 1,
-  "self_sha256": "8390aa397c38019274e8ea4ed2bb66021b88bd0abd9514f322cbd714a462e266",
-  "signed_utc": "2026-09-07T11:09:54Z"
  },
  "verification": [
   "Download the proof package.",

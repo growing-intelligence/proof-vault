@@ -23,6 +23,8 @@ certificate offline, without contacting us and without trusting this page.
 4. Verify the Ed25519 signature over those bytes against the public key printed in the
    certificate.
 
+The CounterFact certificate is at revision 2; revision 1 (commit 841e242) is superseded and its signature is void — it is kept under `superseded/` for the record.
+
 The CounterFact certificate uses a single `signature` block: remove `signature` and `self_sha256`, serialise the rest with sorted keys and compact separators, and verify against the public key inside the block (the same Founder key).
 
 The certificate also carries a Merkle root over the hashes of the evidence files behind the
