@@ -23,7 +23,7 @@ certificate offline, without contacting us and without trusting this page.
 4. Verify the Ed25519 signature over those bytes against the public key printed in the
    certificate.
 
-The CounterFact certificate is at revision 3; revisions 1 and 2 are superseded and their signatures are void — both are kept under `superseded/` for the record.
+The CounterFact certificate is at revision 4; revisions 1 to 3 are superseded and their signatures are void — all are kept under `superseded/` for the record.
 
 To verify it, run `python verify_certificate.py CounterFact-certificate-SIGNED.json` (it needs only the `cryptography` package): it checks the Ed25519 signature, the sha256 of every file the certificate lists, and the Merkle root over those hashes.
 
